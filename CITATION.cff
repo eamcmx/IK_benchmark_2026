@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+title: "IK_benchmark_2026: A Benchmark of 41 Inverse Kinematics Solvers for 6- to 13-DOF Serial Manipulators under Warm-Started Recursive Trajectory Tracking"
+authors:
+  - family-names: "Merchán-Cruz"
+    given-names: "Emmanuel A."
+    affiliation: "Transport and Telecommunication Institute, Riga, Latvia"
+    email: "Merchan.E@tsi.lv"
+    orcid: "https://orcid.org/0000-0003-3009-2586"
+  - family-names: "Aragon-Camarasa"
+    given-names: "Gerardo"
+    affiliation: "School of Computing Science, University of Glasgow, U.K."
+    orcid: "https://orcid.org/0000-0003-3756-5569"
+  - family-names: "Gromova"
+    given-names: "Ekaterina"
+    affiliation: "Transport and Telecommunication Institute, Riga, Latvia"
+    orcid: "https://orcid.org/0000-0003-0290-8373"
+version: "1.0.0"
+date-released: "2026-10-20"
+repository-code: "https://github.com/eamcmx/IK_benchmark_2026"
+license: MIT
+type: software
+keywords:
+  - inverse kinematics
+  - serial manipulator
+  - redundant manipulator
+  - benchmark
+  - trajectory tracking
+  - MATLAB
+  - PRISMA
+  - metaheuristic
+  - damped least squares

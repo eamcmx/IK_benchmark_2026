@@ -1,0 +1,75 @@
+===== NotebookLM Evidence Log - RUN 3 =====
+Notebook: private NotebookLM notebook (link withheld)
+Source: merged_dedup.csv (343 records)
+Prompt template: CLAUDE.md canonical (full IC/EC + ROW+DOI listing per paper + 'no explicit mention => exclude')
+Operator: Emmanuel Merchan
+Date: 2026-04-25
+
+===== BATCH 1 (rows 1-10) =====
+Sent: 2026-04-25
+Status: Complete (2013 chars). All DOIs verified.
+
+------- QUERY -------
+I need you to help screen papers for a PRISMA systematic review against fixed eligibility criteria. The single source is merged_dedup.csv, which has 343 records. Each row has columns: source, decision, trigger, rationale, year, title, authors, venue, doc_type, language, doi, cited_by, keywords, link, abstract. Treat the existing decision/trigger columns as a previous heuristic that you can override.
+
+
+INCLUSION CRITERIA (a paper must satisfy ALL):
+IC1. Addresses the inverse kinematics problem for a serial revolute robotic manipulator.
+IC2. Either (a) compares >=2 IK methods on a common testbed, or (b) proposes a new method and benchmarks it against >=1 prior method. Cross-family comparison NOT required (PSO vs GA vs ABC qualifies).
+IC3. Reports >=1 quantitative comparison metric (success rate, accuracy, error, RMSE, iterations, time, smoothness, manipulability, etc).
+IC4. Manipulator has >=5 DOF.
+IC5. Peer-reviewed journal article OR conference paper.
+IC6. Published 2005-01-01 or later.
+IC7. English language.
+
+
+EXCLUSION CRITERIA (any one disqualifies):
+EC1. Pure analytical / closed-form IK with no comparison.
+EC2. Inverse statics, differential kinematics, or trajectory optimisation only - no IK position/orientation problem solved.
+EC3. Cable-driven, continuum, soft, or parallel-only robots (kept ONLY if also benchmarks serial-arm IK methods).
+EC4. Human pose estimation, animation rigging, or 3D mesh reconstruction.
+EC5. Editorial, erratum, retracted, withdrawn, book, thesis.
+EC7. No abstract AND title insufficient to assess relevance.
+
+
+For papers in ROWS 1 THROUGH 10 of merged_dedup.csv (skip the header; first data row = 1), evaluate each paper against the IC/EC.
+
+I am providing ROW + DOI so you can locate each paper unambiguously in merged_dedup.csv:
+Row 1: DOI 10.23919/ccc63176.2024.10661788
+Row 2: DOI 10.1016/j.jestch.2024.101686
+Row 3: DOI 10.1002/rob.22362
+Row 4: DOI 10.1016/j.asoc.2018.08.028
+Row 5: DOI 10.1007/s11431-024-2819-2
+Row 6: DOI 10.1109/jsen.2024.3429329
+Row 7: DOI 10.1109/tsmc.2016.2615061
+Row 8: DOI NONE
+Row 9: DOI 10.1115/imece2022-95524
+Row 10: DOI 10.3390/sym15051080
+
+
+Return ONE LINE PER PAPER, pipe-separated, in this format:
+ROW|YEAR|DECISION|TRIGGER|RATIONALE|DOI|TITLE_SHORT
+
+
+DECISION = INCLUDE / EXCLUDE / UNCERTAIN
+TRIGGER = IC/EC code (or OK)
+RATIONALE = one short sentence, no pipes
+DOI = the DOI you used to identify the paper (echo back, or NONE if no DOI)
+TITLE_SHORT = title trimmed to 60 chars
+
+if there is no explicit mention in the abstract about the IC or coincides with the EC the result must be exclude
+
+No prose. Just 10 lines.
+
+------- RESPONSE -------
+1|2024|EXCLUDE|EC2|The paper focuses on trajectory planning and explicitly does not solve the inverse kinematics problem.|10.23919/ccc63176.2024.10661788|A Two-Stage Time-Optimal Trajectory Planning Algorithm with
+2|2024|EXCLUDE|IC4|The abstract does not explicitly state the manipulator has at least 5 degrees of freedom.|10.1016/j.jestch.2024.101686|An obstacle-avoidance inverse kinematics method for robotic
+3|2024|EXCLUDE|IC4|The abstract does not explicitly state the manipulator has at least 5 degrees of freedom.|10.1002/rob.22362|An improved inverse kinematics solution method for the hyper
+4|2018|INCLUDE|OK|Proposes an ABC-based algorithm compared against standard ABC using mean squared error on a 5 DOF robot arm.|10.1016/j.asoc.2018.08.028|A new ABC variant for solving inverse kinematics problem in
+5|2025|EXCLUDE|EC3|The paper addresses a cable-driven flexible robot rather than a standard serial revolute manipulator.|10.1007/s11431-024-2819-2|Modeling and control of a rigid-flexible coupling robot for
+6|2024|EXCLUDE|IC4|The abstract mentions a UR5 robot but does not explicitly state its degrees of freedom.|10.1109/jsen.2024.3429329|A Two-Stage Trajectory Planning Method for Online Robotic Qu
+7|2017|EXCLUDE|IC4|The abstract mentions a Baxter robot arm but does not explicitly state its degrees of freedom.|10.1109/tsmc.2016.2615061|Teleoperation Control Based on Combination of Wave Variable
+8|1986|EXCLUDE|IC6|The paper was published in 1986 which is before the required cutoff year of 2005.|NONE|KINEMATIC ALGORITHMS FOR REAL-TIME ROBOT CONTROL.
+9|2022|EXCLUDE|IC4|The abstract explicitly describes a two-link planar robot arm which is less than 5 DOF.|10.1115/imece2022-95524|BENCHMARKING VARIOUS NONLINEAR CONTROL DESIGN TECHNIQUES FOR
+10|2023|EXCLUDE|IC4|The abstract does not explicitly state the mobile manipulators have at least 5 degrees of freedom.|10.3390/sym15051080|A Review and Comparative Study of Differential Evolution Alg
+

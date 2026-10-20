@@ -1,0 +1,9 @@
+Phase 1 (as published) rank statistics (gen_all_figs)
+Source: phase1.csv
+Solvers: 41; cells (blocks): 24
+Ranked (apply to every cell): 35
+Not ranked (not applicable on some cells): BA, EMSA_IK, ImpFABRIK, OffsetWrist, SQP, ScrewTheory
+Measure ranked: median wall time per waypoint (ms), lower = better
+Friedman chi^2 = 691.1778 (df=34), p = 1.696340e-123
+Iman-Davenport F = 127.3578, df = (34, 782)
+Nemenyi q_alpha (alpha=0.05, k=35) = 3.8237; CD = 11.3106

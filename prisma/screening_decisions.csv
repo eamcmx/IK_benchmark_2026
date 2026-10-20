@@ -1,0 +1,344 @@
+row,source,year,decision,trigger,rationale,title,doi
+1,IEEE-S3|Scopus-S2,2024,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A Two-Stage Time-Optimal Trajectory Planning Algorithm with No Inverse Kinematics for Manipulator,10.23919/ccc63176.2024.10661788
+2,Scopus-S2,2024,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,An obstacle-avoidance inverse kinematics method for robotic manipulator in overhead multi-line environment,10.1016/j.jestch.2024.101686
+3,Scopus-S2,2024,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,An improved inverse kinematics solution method for the hyper-redundant manipulator with end-link pose constraint,10.1002/rob.22362
+4,Scopus-S2,2018,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,A new ABC variant for solving inverse kinematics problem in 5 DOF robot arm,10.1016/j.asoc.2018.08.028
+5,Scopus-S2,2025,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark",Modeling and control of a rigid-flexible coupling robot for narrow space manipulations,10.1007/s11431-024-2819-2
+6,Scopus-S2,2024,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A Two-Stage Trajectory Planning Method for Online Robotic Quality Measurement,10.1109/jsen.2024.3429329
+7,Scopus-S2,2017,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Teleoperation Control Based on Combination of Wave Variable and Neural Networks,10.1109/tsmc.2016.2615061
+8,Scopus-S2,1986,EXCLUDE,IC6,year=1986 < 2005,KINEMATIC ALGORITHMS FOR REAL-TIME ROBOT CONTROL.,
+9,Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,BENCHMARKING VARIOUS NONLINEAR CONTROL DESIGN TECHNIQUES FOR A TWO-LINK PLANAR ROBOT ARM,10.1115/imece2022-95524
+10,Scopus-S2,2023,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A Review and Comparative Study of Differential Evolution Algorithms in Solving Inverse Kinematics of Mobile Manipulator,10.3390/sym15051080
+11,Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,Comparative study of two on-line trained neural approximators of a robot inverse kinematics,10.1109/icai55857.2022.9960004
+12,Scopus-S2,2014,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Forward kinematics analysis of parallel manipulator using dynamic bacterial foraging optimization algorithm based on clonal selection,10.1115/imece2014-39829
+13,Scopus-S2,2023,EXCLUDE,IC4,manipulator < 5 DOF,"Design of PID, FLC and Sliding Mode Controller for 2-DOF Robotic Manipulator: A Comparative Study",10.33889/ijmems.2023.8.1.006
+14,Scopus-S2,2011,UNCERTAIN,IC3,comparison present but no metric keyword,A comparison between the DenavitHartenberg and the screw-based methods used in kinematic modeling of robot manipulators,10.1016/j.rcim.2010.12.009
+15,Scopus-S2,2018,UNCERTAIN,IC3,comparison present but no metric keyword,A soft computing approach for inverse kinematics of robot manipulators,10.1016/j.engappai.2018.06.001
+16,Scopus-S2,2018,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Comparative analysis of quasi-differential approaches in inverse kinematics,10.1007/978-3-319-61276-8_1
+17,Scopus-S2,2026,EXCLUDE,IC4,manipulator < 5 DOF,Experimental validation of jerk-minimized trajectory planning in a 4-DOF industrial robotic arm using inverse kinematics with root multiplicity,10.1108/ir-11-2025-0397
+18,Scopus-S2,2006,UNCERTAIN,IC3,comparison present but no metric keyword,Development of an anthropomorphic telemanipulation system; [Entwicklung eines anthropomorphen telemanipulationssystems],10.1524/auto.2006.54.5.203
+19,Scopus-S2,2023,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark","A Comparative Study on Kinematic Calibration for a 3-DOF Parallel Manipulator Using the Complete-Minimal, Inverse-Kinematic and Geometric-Constraint Error Models",10.1186/s10033-023-00940-3
+20,Scopus-S2,2025,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Implementation and Derivation Kinematics Modeling Analysis of WidowX 250 6Degreef of Freedom Robotic Arm,10.31272/jeasd.2454
+21,Scopus-S2,2020,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Hybrid Mutation Fruit Fly Optimization Algorithm for Solving the Inverse Kinematics of a Redundant Robot Manipulator,10.1155/2020/6315675
+22,IEEE-S3|Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,Comparative analysis of inverse kinematics methodologies to improve the controllability of rehabilitative robotic devices,10.1109/icorr55369.2022.9896579
+23,IEEE-S3|Scopus-S2,2025,EXCLUDE,IC7,language=Chinese,Inverse Kinematics Solution for Rope-Driven Continuum Robot Based on Gray Wolf Optimization Algorithm,10.1109/fasta65681.2025.11138668
+24,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,AR Digital Twin Demonstrator for Industrial Robotics Education,10.1007/978-3-031-82957-4_19
+25,Scopus-S2,2020,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark","Design and Analysis of a Flexible, Elastic, and Rope-Driven Parallel Mechanism for Wrist Rehabilitation",10.1155/2020/8841400
+26,Scopus-S2,2023,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Fans Optimizer: A human-inspired optimizer for mechanical design problems optimization,10.1016/j.eswa.2023.120242
+27,Scopus-S2,2023,UNCERTAIN,IC3,comparison present but no metric keyword,Dynamic Grasping of Aerial Manipulator Based on Coupling Disturbance Compensation Caused by Manipulator and Load,10.1109/iecon51785.2023.10311636
+28,Scopus-S2,2023,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Position-Based Visual Servo Control of Dual Robotic Arms With Unknown Kinematic Models: A Cerebellum- Inspired Approach,10.1109/tmech.2023.3235902
+29,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,A Preliminary Design of a Novel Limb Mechanism for a Wheel–Legged Robot,10.3390/app152413036
+30,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,AgriBotNet: ROS 2-Driven Collaborative Robots for Precision Disease Management and Chili Harvesting,10.1109/access65134.2025.11135653
+31,Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,Inverse kinematics of redundant manipulators with guaranteed performance,10.1017/s026357472100045x
+32,Scopus-S2,2021,EXCLUDE,IC7,language=Chinese,Inverse Kinematics Solution of Redundant Manipulator Based on Hybrid Learning Fruit Fly Optimization Algorithm; [基于混合学习果蝇优化算法的冗余机械臂逆运动学求解],10.6041/j.issn.1000-1298.2021.09.047
+33,IEEE-S3|Scopus-S2,2012,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Redundant inverse kinematics: Experimental comparative review and two enhancements,10.1109/iros.2012.6385672
+34,IEEE-S3|Scopus-S2,2015,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Closed-loop inverse kinematics for redundant robots: Comparative assessment and two enhancements,10.1109/tmech.2014.2326304
+35,Scopus-S2,2021,UNCERTAIN,IC3,comparison present but no metric keyword,Applied Artificial Neural Networks and Genetic Algorithms in Simulation Strategy for Trajectory in Collaborative Robotic,10.1109/iisa52424.2021.9555541
+36,Scopus-S2,2022,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,A comparative analysis of metaheuristic algorithms for solving the inverse kinematics of robot manipulators,10.1016/j.rineng.2022.100597
+37,Scopus-S2,2025,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Integration of a Digital Twin Framework for Trajectory Control of a 2RRR Planar Parallel Manipulator Using ROS/Gazebo and MATLAB,10.3390/fi17040146
+38,Scopus-S2,2019,EXCLUDE,IC7,language=Chinese,Kane-Formulation-Based Dynamic Modeling and Comparative Study on Dynamic Performance of Two Kinds of Parallel Robots; [两类平面并联机构凯恩动力学建模与比较研究],10.11784/tdxbz201805028
+39,Scopus-S2,2012,EXCLUDE,IC7,language=Chinese,A global harmony search algorithm and its application to inverse kinematics problem for humanoid arm,
+40,Scopus-S2,2025,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Kinematic Performance Analysis of a Parallel Ankle Rehabilitation Robot with Sufficient Distance Adjustment,10.1007/s40997-024-00829-z
+41,Scopus-S2,2013,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,"2013 International Conference on Precision Mechanical Instruments and Measurement Technology, ICPMIMT 2013",
+42,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,Advancing Telerobotics: Evaluating ROS 2 in a Real-World Communication Test Environment,
+43,Scopus-S2,2020,EXCLUDE,EC4,human pose / mesh / animation,Application and Evaluation of Lighthouse Technology for Precision Motion Capture,10.1109/jsen.2020.2983933
+44,IEEE-S3|Scopus-S2,2024,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Inverse kinematics of 7-DOF Redundant Manipulator Based on Improved Dung Beetle Optimization Algorithm,10.1109/icmee63700.2024.11025244
+45,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,Bionic Energy-Efficient Inverse Kinematics Method Based on Neural Networks for the Legs of Hydraulic Legged Robots,10.3390/biomimetics10060403
+46,Scopus-S2,2023,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Neural Network Method of Controlling Self-Collisions of Multilink Manipulators Based on the Solution of the Classification Problem,10.3390/app132413240
+47,Scopus-S2,2025,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark","KINEMATICS MODELING AND STIFFNESS CONTROL FOR DUAL PNEUMA, A LARGE-SCALE QUADRUPED CONSTANT CURVATURE SOFT ROBOT",10.1115/detc2025-163858
+48,Scopus-S2,2011,EXCLUDE,IC4,manipulator < 5 DOF,Fuzzy-genetic optimal control for robotic systems,
+49,Scopus-S2,2022,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Optimization of Training Data Set Based on Linear Systematic Sampling to Solve the Inverse Kinematics of 6 DOF Robotic Arm with Artificial Neural Networks,10.1007/978-3-030-77558-2_5
+50,Scopus-S2,2018,EXCLUDE,EC4,human pose / mesh / animation,A Real-Time Identification and Tracking Method for the Musculoskeletal Model of Human Arm,10.1109/smc.2018.00588
+51,Scopus-S2,2022,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,A hybrid improved BRO algorithm and its application in inverse kinematics of 7R 6DOF robot,10.1177/16878132221085125
+52,Scopus-S2,2002,EXCLUDE,IC6,year=2002 < 2005,Comparison of automatic and symbolic differentiation in mathematical modeling and computer simulation of rigid-body systems,10.1023/a:1015523018029
+53,Scopus-S2,2024,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,"AN ANALYTICAL INVERSE KINEMATICS SOLUTION WITH THE AVOIDANCE OF JOINT LIMITS, SINGULARITY AND THE SIMULATION OF 7-DOF ANTHROPOMORPHIC MANIPULATORS",10.21278/tof.481055523
+54,IEEE-S3|Scopus-S2,2024,EXCLUDE,IC4,manipulator < 5 DOF,Investigating Neural Network Hyperparameter Variations in Robotic Arm Inverse Kinematics for Different Arm Lengths,10.1109/icpc2t60072.2024.10474947
+55,Scopus-S2,2024,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Optimization of a Redundantly Actuated Parallel Robot for Stirring Friction Additive Manufacturing,10.1109/m2vip62491.2024.10746126
+56,Scopus-S2,2025,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Path Planning for Rail-Mounted Pipeline Welding Robots,10.1145/3776942.3779540
+57,Scopus-S2,2023,EXCLUDE,IC2,no comparison/benchmark wording in abstract,Inverse Kinematic Solver Based on Bat Algorithm for Robotic Arm Path Planning,10.3390/robotics12020038
+58,Scopus-S2,2022,EXCLUDE,IC7,language=Chinese,Follow control of upper limb rehabilitation training based on Kinect and NAO robot,10.7507/1001-5515.202111009
+59,Scopus-S2,2024,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,An Efficient Quadratic Programming Method for Kinematic Control of Redundant Manipulators under Joint Velocity Constraints,10.3390/act13070273
+60,Scopus-S2,2026,INCLUDE,OK,"post-hoc INCLUDE: full-text reports position+orientation error, iteration count, and runtime on a 7-DOF chain (IC3 met); also compares improved-LM, improved-PSO, and the hybrid (IC2 met). Implemented as solve_lm_pso_srs.m.",Inverse kinematics of 7-DOF multi-offset manipulators for on-orbit servicing based on variable SRS equivalence and hybrid optimization,10.1016/j.asr.2026.02.006
+61,Scopus-S2,2021,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Study of neural-kinematics architectures for model-less calibration of industrial robots,10.20965/jrm.2021.p0158
+62,IEEE-S3|Scopus-S2,2025,INCLUDE,OK,systematic review / survey,Methods for Obtaining Inverse Kinematics in Industrial Robots: A Comparative Study,10.1109/induscon66435.2025.11241611
+63,Scopus-S2,2021,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",An improved particle swarm optimization algorithm and its application in solving forward kinematics of a 3-DoF parallel manipulator,10.1177/0954406220939109
+64,Scopus-S2,2023,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Obstacle Avoidance Path Planning of 7-DOF Redundant Manipulator Based on Improved Ant Colony Optimization,10.2174/2212797616666230417104506
+65,Scopus-S2,2014,UNCERTAIN,IC3,comparison present but no metric keyword,Nature-inspired intelligent optimisation using the bees algorithm,10.1007/978-3-642-54455-2_2
+66,Scopus-S2,2024,UNCERTAIN,IC3,comparison present but no metric keyword,Inverse Kinematics Proposal to Automatize the 3D Scanning of Handball Shoes by Using a Robotic Arm with 3 Actuated Joints,10.3390/app14010297
+67,Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,"International Conference on Advanced Computing and Intelligent Technologies, ICACIT 2021",
+68,Scopus-S2,2021,UNCERTAIN,IC3,comparison present but no metric keyword,Smooth transition for collision avoidance of redundant robots: An on-line polynomial approach,10.1016/j.rcim.2020.102087
+69,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,"Design, Modelling, and Kinematic Analysis of 6 DOF Articulated Robotic Arm with Spherical Wrist for Harvesting heavy Agricultural Products",10.1109/icetecc65365.2025.11071151
+70,Scopus-S2,2006,UNCERTAIN,IC3,comparison present but no metric keyword,A Neuro - Fuzzy approach for the motion planning of redundant manipulators,10.1109/ijcnn.2006.247217
+71,IEEE-S3|Scopus-S2,2023,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Comparative Study of Iterative Methods for Inverse Kinematics of Redundant Serial Robots with Increasing Degrees of Freedom,10.1109/ropec58757.2023.10409450
+72,Scopus-S2,2019,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Trajectory Tracking Control of Underwater Vehicle-Manipulator Systems Using Uncertainty and Disturbance Estimator,10.1109/oceans.2018.8604667
+73,Scopus-S2,2018,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Fuzzy logic PD controller for trajectory tracking of an autonomous differential drive mobile robot (i.e. Quanser Qbot),10.1108/ir-07-2017-0128
+74,Scopus-S2,2013,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Actuators orientation influence in the energy consumption of the 3-PRS manipulator,10.1115/imece2013-63166
+75,Scopus-S2,2011,UNCERTAIN,IC3,comparison present but no metric keyword,A comparative study of three inverse kinematic methods of serial industrial robot manipulators in the screw theory framework,10.5772/45696
+76,Scopus-S2,2026,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Data-driven inverse kinematics for a 6-DOF robotic manipulator using an MPGA-optimized BP neural network,10.1088/2631-8695/ae455f
+77,Scopus-S2,2025,EXCLUDE,IC4,manipulator < 5 DOF,The Design of a Vision-Assisted Dynamic Antenna Positioning Radio Frequency Identification-Based Inventory Robot Utilizing a 3-Degree-of-Freedom Manipulator,10.3390/s25082418
+78,Scopus-S2,2025,EXCLUDE,EC4,human pose / mesh / animation,A Comparative Study of IK and ID Controllers for Motion Capture Using a Hybrid Vision System,10.1109/iceemt66565.2025.11281356
+79,Scopus-S2,2016,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Local models for learning inverse kinematics of redundant robots: A performance comparison,10.1007/978-3-319-28518-4_15
+80,Scopus-S2,2026,UNCERTAIN,IC3,comparison present but no metric keyword,"6th Symposium on Intelligent Manufacturing and Mechatronics, SIMM 2024",
+81,Scopus-S2,2023,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark",Toward Unified Adaptive Teleoperation Based on Damping ZNN for Robot Manipulators With Unknown Kinematics,10.1109/tie.2022.3210522
+82,Scopus-S2,2023,EXCLUDE,IC7,language=Chinese,RESEARCH ON TRAJECTORY PLANNING OF QUADRUPED ROBOT BASED ON BEZIER CURVE; [基于贝塞尔曲线的四足机器人足端轨迹规划研究],10.16579/j.issn.1001.9669.2023.03.028
+83,Scopus-S2,2015,UNCERTAIN,IC3,comparison present but no metric keyword,Comparative analysis for kinematics of 5-DOF industrial robotic manipulator,10.1515/ama-2015-0037
+84,Scopus-S2,2024,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A Closed-Form Inverse Kinematic Analytical Method for Seven-DOF Space Manipulator with Aspheric Wrist Structure,10.3390/machines12090632
+85,Scopus-S2,2019,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark","Inverse, direct kinetics and differential kinematic control of parallel robot with six degrees of hexa freedom - Hunt",10.1109/icmae.2019.8881011
+86,Scopus-S2,2019,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A walking bipedal robot using a position control algorithm based on Center of Mass criterion,
+87,Scopus-S2,2023,UNCERTAIN,IC3,comparison present but no metric keyword,Towards Flexible Manufacturing: Motion Generation Concept for Coupled Multi-Robot Systems,10.1109/case56687.2023.10260365
+88,Scopus-S2,2016,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Motion control of a bio-inspired wire-driven multi-backbone continuum minimally invasive surgical manipulator,10.1109/robio.2016.7866621
+89,Scopus-S2,2023,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Simulation-Based Comparative Study and Selection of Real-Time Controller for 3-PRRR Cartesian Parallel Manipulator,10.1007/978-3-031-29815-8_14
+90,Scopus-S2,2016,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Trajectory tracking control of a real redundant manipulator of the SCARA type,10.5370/jeet.2016.11.1.215
+91,Scopus-S2,2015,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark",Neural Network and Jacobian Method for Solving the Inverse Statics of a Cable-Driven Soft Arm with Nonconstant Curvature,10.1109/tro.2015.2428511
+92,Scopus-S2,2020,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Comparative study of the neural and neuro-fuzzy networks for direct path generation of a new fully spherical parallel manipulator,10.1080/14484846.2018.1495796
+93,Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,Research of Control Systems for Robotic Spatial Planning Platforms,10.1109/mees58014.2022.10005765
+94,Scopus-S2,2013,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A comparison of jacobian-based methods of inverse kinematics for serial robot manipulators,10.2478/amcs-2013-0028
+95,Scopus-S2,1998,EXCLUDE,IC6,year=1998 < 2005,Balancing of an inverted pendulum with a SCARA robot,10.1109/3516.686676
+96,Scopus-S2,2025,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Kinematical error analysis and autonomous calibration of a 5PUS-RPUR parallel robot,10.1371/journal.pone.0330675
+97,Scopus-S2,2018,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark","26th International Conference on Robotics in Alpe-Adria-Danube Region, RAAD 2017",
+98,Scopus-S2,2012,EXCLUDE,IC7,language=Chinese,Inverse kinematics solution for robot manipulator based on hybrid electromagnetism-like mechanism algorithm,10.3901/jme.2012.12.021
+99,Scopus-S2,2025,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark","An actuator space optimal kinematic path tracking framework for tendon-driven continuum robots: Theory, algorithm and validation",10.1177/02783649241290525
+100,Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,Human-like redundancy resolution: An integrated inverse kinematics scheme for anthropomorphic manipulators with radial elbow offset,10.1016/j.aei.2022.101812
+101,Scopus-S2,2023,EXCLUDE,IC7,language=Chinese,Hybrid mutation clonal selection algorithm for solving inverse kinematics of manipulator; [混合变异克隆选择算法及其在机械臂逆运动学问题中的应用],10.13196/j.cims.2023.05.012
+102,Scopus-S2,2025,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A dual quaternion approach to kinematic modeling and evaluation of PRR-type robotic manipulators,10.1016/j.pes.2025.100174
+103,Scopus-S2,2017,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Kinematics analysis of a redundantly actuated 4-RUU translational parallel manipulator and its nonredundant 3-RUU counterpart,10.1177/0954406216642798
+104,Scopus-S2,2019,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Grasp Planning with Incomplete Knowledge about the Object to be Grasped,10.1109/icarsc.2019.8733615
+105,Scopus-S2,2021,UNCERTAIN,IC3,comparison present but no metric keyword,Hybrid algorithms based on combining reinforcement learning and metaheuristic methods to solve global optimization problems,10.1016/j.knosys.2021.107044
+106,Scopus-S2,2026,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Optimization of manipulator inverse kinematics using improved particle swarm algorithm for enhanced manufacturing efficiency,10.1177/09544054241310337
+107,Scopus-S2,2015,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Upper-limb kinematic reconstruction during stroke robot-aided therapy,10.1007/s11517-015-1276-9
+108,Scopus-S2,2025,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Research on dynamic path planning and synergistic following algorithms for a snake-arm system with flipping and feed motion,10.1016/j.advengsoft.2025.103954
+109,Scopus-S2,2026,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,KSOM-WLN vs. PID-CLIK: intelligent and conventional approaches for trajectory tracking control of spatial robotic manipulator,10.1080/00051144.2026.2621479
+110,Scopus-S2,2009,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Recursive modelling in dynamics of Delta parallel robot,10.1017/s0263574708004451
+111,Scopus-S2,2023,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A novel comprehensive learning Rao algorithm for engineering optimization problems,10.1007/s40430-022-03911-2
+112,Scopus-S2,2023,EXCLUDE,IC2,no comparison/benchmark wording in abstract,A Combined Inverse Kinematics Algorithm Using FABRIK with Optimization,10.1007/s10846-023-01895-2
+113,Scopus-S2,2004,EXCLUDE,IC6,year=2004 < 2005,Multiple tasks manipulation for a robotic manipulator,10.1163/1568553041257422
+114,Scopus-S2,2025,EXCLUDE,IC4,manipulator < 5 DOF,Inverse Kinematics via Acceleration-Level Quadratic Programming and Sliding Mode Control of an Aerial Manipulator for Crop Sampling,10.18196/jrc.v6i6.28121
+115,Scopus-S2,2023,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Autonomous grasping of 3-D objects by a vision-actuated robot arm using Brain–Computer Interface,10.1016/j.bspc.2023.104765
+116,Scopus-S2,2020,UNCERTAIN,IC3,comparison present but no metric keyword,A Comparative Study for Obstacle Avoidance Inverse Kinematics: Null-Space Based vs. Optimisation-Based,10.1007/978-3-030-63486-5_18
+117,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,OmniNet: Omnidirectional Jumping Neural Network With Height-Awareness for Quadrupedal Robots,10.1109/lra.2025.3580993
+118,Scopus-S2,2022,EXCLUDE,IC7,language=Chinese,Double strategies co-evolutionary fruit fly optimization algorithm and its application; [双策略协同进化果蝇优化算法及其应用],10.13196/j.cims.2022.05.019
+119,Scopus-S2,2005,UNCERTAIN,IC3,comparison present but no metric keyword,Haptic telemanipulation with dissimilar kinematics,10.1109/iros.2005.1545349
+120,Scopus-S2,2023,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark",A Geometric Approach towards Inverse Kinematics of Soft Extensible Pneumatic Actuators Intended for Trajectory Tracking,10.3390/s23156882
+121,Scopus-S2,2008,EXCLUDE,IC2,no comparison/benchmark wording in abstract,On a hybrid symbolic-connectionist approach for modeling the kinematic robot map - And benchmarks for computer algebra,10.1007/978-3-540-85110-3_2
+122,Scopus-S2,2016,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Dynamic performance evaluation of serial and parallel RPR manipulators with flexible intermediate links,10.1007/s40997-016-0019-3
+123,Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,Optimization of Robotic Task Sequencing Problems by Crowding Evolutionary Algorithms,10.1109/tsmc.2021.3104862
+124,Scopus-S2,2026,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Trajectory Tracking of a WMR Using a Neuro-Adaptive MRAC Control with Dynamic Uncertainties,10.1109/access.2026.3670760
+125,IEEE-S3|Scopus-S2,2022,EXCLUDE,IC7,language=Portuguese,Analysis of the Inverse Kinematics and Trajectory Planning Applied in a Classic Collaborative Industrial Robotic Manipulator,10.1109/tla.2022.9667133
+126,Scopus-S2,2020,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Chaos-based Vortex Search algorithm for solving inverse kinematics problem of serial robot manipulators with offset wrist,10.1016/j.asoc.2020.106074
+127,Scopus-S2,2023,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,PECSO: An Improved Chicken Swarm Optimization Algorithm with Performance-Enhanced Strategy and Its Application,10.3390/biomimetics8040355
+128,Scopus-S2,2021,EXCLUDE,IC4,manipulator < 5 DOF,Multiple Manifold Types of Synergetic Control Applied on a 4-DOF Robot Manipulator,10.1109/iccar52225.2021.9463446
+129,Scopus-S2,2012,UNCERTAIN,IC3,comparison present but no metric keyword,Representation and generalization of bi-manual skills from kinesthetic teaching,10.1109/humanoids.2012.6651575
+130,Scopus-S2,1995,EXCLUDE,IC6,year=1995 < 2005,Acceleration of back-propagation for learning the forward and inverse kinematic equations,
+131,IEEE-S3|Scopus-S2,2022,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark",Inverse Kinematics and Dexterous Workspace Formulation for 2-Segment Continuum Robots with Inextensible Segments,10.1109/lra.2021.3128689
+132,Scopus-S2,2023,UNCERTAIN,IC3,comparison present but no metric keyword,A Collection of Robotics Problems for Benchmarking Evolutionary Computation Methods,10.1007/978-3-031-30229-9_24
+133,Scopus-S2,2025,EXCLUDE,IC7,language=Chinese,Kinematics Parameter Identification for Industrial Robots Based on Multi-strategy Fusion DBO Algorithm; [基于多策略融合蜣螂优化算法的工业机器人运动学参数辨识方法],10.3969/j.issn.1004-132x.2025.02.012
+134,Scopus-S2,2023,EXCLUDE,IC2,no comparison/benchmark wording in abstract,Inverse Kinematics of Robot Manipulator Based on BODE-CS Algorithm,10.3390/machines11060648
+135,Scopus-S2,2009,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A comparative study between conventional and continuous genetic algorithms for the solution of Cartesian path generation problems of robot manipulators,
+136,Scopus-S2,2006,UNCERTAIN,IC3,comparison present but no metric keyword,Development of a high-performance haptic telemanipulation system with dissimilar kinematics,10.1163/156855306778792461
+137,Scopus-S2,2021,EXCLUDE,EC4,human pose / mesh / animation,Musculoskeletal modeling and humanoid control of robots based on human gait data,10.7717/peerj-cs.657
+138,Scopus-S2,2019,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A Hybrid Joint/Cartesian DMP-Based Approach for Obstacle Avoidance of Anthropomorphic Assistive Robots,10.1007/s12369-019-00597-w
+139,Scopus-S2,2015,UNCERTAIN,IC3,comparison present but no metric keyword,Improved Inverse Kinematics Algorithm Using Screw Theory for a Six-DOF Robot Manipulator,10.5772/60834
+140,Scopus-S2,1996,EXCLUDE,IC6,year=1996 < 2005,Distributed computation of inverse dynamics of robots,
+141,Scopus-S2,2023,UNCERTAIN,IC3,comparison present but no metric keyword,Neural Joint Space Implicit Signed Distance Functions for Reactive Robot Manipulator Control,10.1109/lra.2022.3227860
+142,IEEE-S3|Scopus-S2,2023,UNCERTAIN,IC3,comparison present but no metric keyword,Comparative Study of Machine Learning Techniques for Inverse Kinematics in a 5-DOF Manipulator,10.1109/rasse60029.2023.10363572
+143,Scopus-S2,2019,UNCERTAIN,IC3,comparison present but no metric keyword,Synthesis of real-time control systems for multilink industrial robots based on hybrid neural network approach of solution inverse kinematics problem,10.2507/30th.daaam.proceedings.069
+144,Scopus-S2,1986,EXCLUDE,IC6,year=1986 < 2005,A Comparative Study of Generalized Coordinates for Solving the Inverse- Kinematics Problem of a 6R Robot Manipulator,10.1177/027836498600500405
+145,Scopus-S2,2022,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Extensively Explored and Evaluated Actor-Critic With Expert-Guided Policy Learning and Fuzzy Feedback Reward for Robotic Trajectory Generation,10.1109/tii.2022.3143611
+146,Scopus-S2,2021,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Battle royale optimization algorithm,10.1007/s00521-020-05004-4
+147,IEEE-S3|Scopus-S2,2009,EXCLUDE,IC4,manipulator < 5 DOF,Comparative analysis for the inverse kinematics of redundant manipulators based on repetitive tracking tasks,10.1109/ical.2009.5262950
+148,Scopus-S2,2010,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Comparative analysis in dynamics of the 3-RRR planar parallel robot,
+149,Scopus-S2,2021,EXCLUDE,IC4,manipulator < 5 DOF,An intelligent control method for redundant robotic manipulators with output constraints,10.1109/icsse52999.2021.9538490
+150,Scopus-S2,2023,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A Cerebellum-Inspired Network Model and Learning Approaches for Solving Kinematic Tracking Control of Redundant Manipulators,10.1109/tcds.2022.3149622
+151,Scopus-S2,2024,UNCERTAIN,IC3,comparison present but no metric keyword,"Protein folding, protein dynamics and the topology of self-motions",10.1098/rsos.240873
+152,Scopus-S2,2005,UNCERTAIN,IC3,comparison present but no metric keyword,Cooperative fuzzy hint acquisition for industrial redundant robots to avoid the joint limits,10.1007/3-540-32391-0_12
+153,Scopus-S2,1987,EXCLUDE,IC6,year=1987 < 2005,Optimal trajectory control of a robotic vehicle,10.1117/12.937808
+154,IEEE-S3|Scopus-S2,2021,EXCLUDE,IC4,manipulator < 5 DOF,Inverse kinematics formulations of a continuum endoscope for a view adjustment similar to the da vinci endoscope,10.1109/rcar52367.2021.9517626
+155,Scopus-S2,2018,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,A comparative study of soft computing methods to solve inverse kinematics problem,10.1016/j.asej.2017.08.001
+156,Scopus-S2,2023,UNCERTAIN,IC3,comparison present but no metric keyword,Time-optimal trajectory planning based on event-trigger and conditional proportional control,10.1371/journal.pone.0273640
+157,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,Design and Kinematics for the Cystoscope of a Transurethral Continuum Surgical Robotic System,10.1109/iros60139.2025.11247666
+158,Scopus-S2,2025,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A novel control paradigm for collision-free trajectory tracking in tractor-trailer robots,10.1017/s0263574725102154
+159,Scopus-S2,2003,EXCLUDE,IC6,year=2003 < 2005,Inverse dynamics based control system for a three-degree-of-freedom flexible arm,10.1109/tra.2003.819596
+160,Scopus-S2,2019,UNCERTAIN,IC3,comparison present but no metric keyword,Encoding Multiple Sensor Data for Robotic Learning Skills from Multimodal Demonstration,10.1109/access.2019.2945484
+161,Scopus-S2,2022,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Fast and Robust Inverse Kinematics of Serial Robots Using Halley's Method,10.1109/tro.2022.3162954
+162,Scopus-S2,2023,EXCLUDE,IC7,language=Chinese,Two-stage neural network control method for space soft manipulator; [空间软体机械臂的两阶段神经网络控制方法],10.7641/cta.2023.30344
+163,Scopus-S2,1990,EXCLUDE,IC6,year=1990 < 2005,Remarks on Some Dynamical Problems of Controlling Redundant Manipulators,10.1109/9.50353
+164,Scopus-S2,2024,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,White Shark Optimizer Based Time-optimal Trajectory Planning for Supernumerary Robotic Limbs,
+165,Scopus-S2,2020,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Root based optimization algorithm for task-oriented structural design of a multi-axial road test rig,10.1109/access.2020.3022531
+166,IEEE-S3|Scopus-S2,2018,EXCLUDE,IC4,manipulator < 5 DOF,Neural network as an alternative to the jacobian for iterative solution to inverse kinematics,10.1109/lars/sbr/wre.2018.00067
+167,IEEE-S3|Scopus-S2,2023,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Efficient Learning of Fast Inverse Kinematics with Collision Avoidance,10.1109/humanoids57100.2023.10375143
+168,Scopus-S2,2025,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Time optimal trajectory planning of robotic arm based on improved sand cat swarm optimization algorithm,10.1007/s10489-024-06124-3
+169,Scopus-S2,2024,EXCLUDE,IC7,language=Chinese,Inverse Kinematics Solution of Redundant Manipulator Based on Manipulability Optimization; [基于可操作度优化的冗余机械臂逆运动学求解方法],10.3901/jme.2024.07.022
+170,Scopus-S2,2022,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A hybrid approach for high-dimensional optimization: Combining particle swarm optimization with mechanisms in neuro-endocrine-immune systems,10.1016/j.knosys.2022.109527
+171,Scopus-S2,2026,UNCERTAIN,IC3,comparison present but no metric keyword,Modelling and Analysis of a Two-Phalange Robotic Manipulator for Dexterous Grasping,10.1007/978-981-96-9771-7_21
+172,Scopus-S2,2025,EXCLUDE,IC4,manipulator < 5 DOF,A conjugate gradient algorithm for the non-convex minimization problem and its convergence properties,10.1080/0305215x.2025.2562368
+173,Scopus-S2,2024,EXCLUDE,IC7,language=Chinese,Improvement of Artificial Bee Colony Algorithm for Inverse Kinematics of Redundant Manipulators; [面向冗余机械臂逆运动学问题的人工蜂群算法改进],10.3901/jme.2024.15.060
+174,IEEE-S3|Scopus-S2,2008,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Learning the inverse kinematics of a robot manipulator using the Bees Algorithm,10.1109/indin.2008.4618151
+175,IEEE-S3|Scopus-S2,2021,UNCERTAIN,IC3,comparison present but no metric keyword,Research on Inverse Kinematics of Robot Based on Improved Chicken Swarm Algorithm,10.1109/eiecs53707.2021.9588154
+176,Scopus-S2,2025,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark",Multi-criteria-based inverse kinematics control for cable-driven hyper-redundant manipulator with virtual repulsion and quasi-ridge regression,10.1016/j.robot.2025.104989
+177,Scopus-S2,2023,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,GEOMETRIC APPROACH TO SOLVING INVERSE KINEMATICS OF SIX DOF ROBOT WITH SPHERICAL JOINTS,10.14311/ap.2023.63.0326
+178,Scopus-S2,2021,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Research on the inverse kinematics of manipulator using an improved self-adaptive mutation differential evolution algorithm,10.1177/17298814211014413
+179,Scopus-S2,2025,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,An inverse kinematics solution method based on improved flow direction algorithm,10.1007/s12008-025-02341-3
+180,Scopus-S2,2021,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,A novel inverse kinematics method for 6-DOF robots with non-spherical wrist,10.1016/j.mechmachtheory.2020.104180
+181,Scopus-S2,2012,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Inverse kinematics of a 10 DOF modular hyper-redundant robot resorting to exhaustive and error-optimization methods: A comparative study,10.1109/sbr-lars.2012.28
+182,Scopus-S2,2022,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Self-Collision Avoidance Control of Dual-Arm Multi-Link Robot Using Neural Network Approach,10.18196/jrc.v3i3.14318
+183,Scopus-S2,2008,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark","Kinematics analysis, design, and control of an isoglide3 parallel robot (IG3PR)",10.1109/iecon.2008.4758373
+184,Scopus-S2,2015,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark","Design, kinematic and dynamic studies of a reconfigurable parallel manipulator",10.1145/2783449.2783494
+185,Scopus-S2,1987,EXCLUDE,IC6,year=1987 < 2005,NEW ARCHITECTURE FOR ROBOT CONTROL.,
+186,Scopus-S2,2003,EXCLUDE,IC6,year=2003 < 2005,Kinematics control of redundant manipulators using CMAC neural network combined with genetic algorithms,
+187,Scopus-S2,2005,UNCERTAIN,IC3,comparison present but no metric keyword,Inverse kinematics and geometrically bounded singularities prevention of redundant manipulators: An Artificial Neural Network approach,10.1016/j.robot.2005.09.011
+188,Scopus-S2,2014,UNCERTAIN,IC3,comparison present but no metric keyword,Spatially hyper-redundant robotic inverse kinematics by discrete link characterization,10.4028/www.scientific.net/amm.592-594.2204
+189,Scopus-S2,2025,EXCLUDE,IC7,language=Chinese,Model Predictive Inverse Kinematics for Joint Limit Avoidance in Redundant Manipulator; [基于模型预测的冗余机械臂逆运动学关节极限规避],10.6052/1672-6553-2025-039
+190,Scopus-S2,2025,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Energy-efficient trajectory optimization for planetary surface manipulators via heuristic multi-objective particle swarm optimization algorithm,10.1017/s026357472500027x
+191,Scopus-S2,2021,EXCLUDE,IC7,language=Chinese,Motion control of a redundant hydraulic actuated quadruped robot based on extended Jacobian matrix; [基于扩展雅可比矩阵的冗余液压驱动四足机器人运动控制],10.7641/cta.2020.00097
+192,Scopus-S2,2006,UNCERTAIN,IC3,comparison present but no metric keyword,Intelligent control for avoiding the joint limits of redundant planar manipulators,10.1007/s10015-005-0370-8
+193,IEEE-S3|Scopus-S2,2025,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Obstacle-Avoiding Path Planning for Robotic Manipulators Based on Recursive Segmentation Point Migration Optimization and Progressive Inverse Kinematics,10.1109/tase.2025.3604604
+194,Scopus-S2,2025,EXCLUDE,EC4,human pose / mesh / animation,BioPose: Biomechanically-Accurate 3D Pose Estimation from Monocular Videos,10.1109/wacv61041.2025.00617
+195,Scopus-S2,2025,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark",Online optimization enhanced closed-loop control of multi-section continuum robots,10.1016/j.robot.2025.104986
+196,Scopus-S2,2024,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Comparative Study of Machine Learning Models for Inverse Kinematic Prediction of a Flexible-Tube Wrist Mechanism in Robotic Charging Stations,10.1109/icsmech62936.2024.10812340
+197,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,Parallel MPPI With Gradient-Velocity Modulated SDF Cost for High-Performance Real-Time Dynamic Obstacle Avoidance by Robot Manipulators,10.1109/tro.2025.3600125
+198,Scopus-S2,2024,EXCLUDE,IC4,manipulator < 5 DOF,Towards accuracy improvement in solution of inverse kinematic problem in redundant robot: A comparative analysis,10.1556/1848.2023.00722
+199,Scopus-S2,2025,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,"Inverse Kinematics Optimization Using ACO, MOA, SPOA, and ALO: A Benchmark Study on Industrial Robot Arms",10.18196/jrc.v6i4.26809
+200,Scopus-S2,2020,UNCERTAIN,IC3,comparison present but no metric keyword,A Comparative Analysis of Kinematics of Industrial Robot KUKA KR 60-3 Using Scientific Computing Languages,10.1109/accc51160.2020.9347897
+201,IEEE-S3|Scopus-S2,2017,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Inverse-free solution to inverse kinematics of two-wheeled mobile robot system using gradient dynamics method,10.1109/icsai.2016.7810942
+202,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,A Kinematics Optimization Framework with Improved Computational Efficiency for Task-Based Optimum Design of Serial Manipulators in Cluttered Environments,10.1109/icra55743.2025.11128345
+203,Scopus-S2,2023,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Forward kinematic analysis of 5-DOF LYNX6 robotic arm used in robot-assisted surgery,10.1016/j.matpr.2022.09.080
+204,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,Design and Implementation of Physics-Inspired Interval Type-2 Fuzzy Logic Control and Optimal Kinematics Modeling for Intelligent Robotic Mobile Manipulators,10.1007/s40815-025-02138-2
+205,Scopus-S2,2026,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Tube-Based Geometric Model Predictive Tracking Control for Robot Manipulators in Task Space With Disturbances,10.1109/tase.2026.3654805
+206,Scopus-S2,2024,UNCERTAIN,IC3,comparison present but no metric keyword,A Comparative Analysis of Optimal and Biomechanical Torque Control Strategies for Powered Knee Exoskeletons in Squat Lifting,10.1115/1.4064234
+207,Scopus-S2,2022,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Modeling of Industrial Robot Kinematics Using a Hybrid Analytical and Statistical Approach,10.1115/1.4053734
+208,Scopus-S2,2021,EXCLUDE,IC7,language=Chinese,Inverse kinematics of manipulator based on improved clonal selection algorithm; [基于改进克隆选择算法的机械臂运动学逆解],10.13196/j.cims.2021.10.017
+209,Scopus-S2,1987,EXCLUDE,IC6,year=1987 < 2005,General‐purpose inverse kinematics transformations for robotic manipulators,10.1002/rob.4620040405
+210,Scopus-S2,2021,EXCLUDE,IC2,no comparison/benchmark wording in abstract,A Novel Clustering-Based Algorithm for Solving Spatially Constrained Robotic Task Sequencing Problems,10.1109/tmech.2020.3037158
+211,Scopus-S2,2026,EXCLUDE,IC4,manipulator < 5 DOF,"3rd International Conference on Robotics, Control, Automation, and Artificial Intelligence, RCAAI 2024",
+212,Scopus-S2,2024,UNCERTAIN,IC3,comparison present but no metric keyword,"15th European Robotics Forum, ERF 2024",
+213,Scopus-S2,2021,UNCERTAIN,IC3,comparison present but no metric keyword,Comparative Study of Inverse Kinematics Using Data Driven and FABRIK Approach,10.1145/3478586.3478620
+214,Scopus-S2,2016,UNCERTAIN,IC3,comparison present but no metric keyword,A hybrid swarm intelligence of artificial immune system tuned with Taguchi-genetic algorithm and its field-programmable gate array realization to optimal inverse kinematics for an articulated industrial robotic manipulator,10.1177/1687814015626380
+215,Scopus-S2,2025,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Research on Impedance Control Algorithm for Heavy-Duty Electro-Hydraulic Hybrid Driven Legged System,10.1109/ic2ecs68700.2025.11361877
+216,Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,Inverse Kinematic Solution of a 7 DOF Robotic Manipulator using Boundary Restricted Particle Swarm Optimization,10.1016/j.ifacol.2022.04.017
+217,Scopus-S2,2026,EXCLUDE,IC2,no comparison/benchmark wording in abstract,Rough Sets Meta-Heuristic Schema for Inverse Kinematics and Path Planning of Surgical Robotic Arms,10.3390/robotics15030052
+218,IEEE-S3|Scopus-S2,2021,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Inverse Kinematics Solution for 5-DoF Robotic Manipulator using Meta-heuristic Techniques,10.1109/iciera53202.2021.9726739
+219,Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,Collision Avoidance for Redundant 7-DOF Robots Using a Critically Damped Dynamic Approach,10.3390/robotics11050093
+220,Scopus-S2,2002,EXCLUDE,IC6,year=2002 < 2005,Computational intelligence based approach for the joint trajectory generation of cooperative robotic systems,
+221,Scopus-S2,2018,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Modeling and performance analysis of planar parallel manipulators,10.1007/978-3-319-64861-3_2
+222,Scopus-S2,2025,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,"Two-Stage Neural Network versus Ant Colony, Mayfly, Stochastic Paint, and Ant Lion Optimizers for Robot Arm Inverse Kinematics",10.18196/jrc.v6i6.27795
+223,Scopus-S2,2025,EXCLUDE,IC7,language=Chinese,Continuum Robot Control Based on Varying Parameter Recursive Network and Recursive Least Square; [基于变参递归网络和递归最小二乘的连续体机器人控制],10.16383/j.aas.c240469
+224,Scopus-S2,1989,EXCLUDE,IC6,year=1989 < 2005,Computer simulation of the Stanford Arm tracking controller-sliding mode versus PID,
+225,Scopus-S2,2021,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Adaptive nonsingular fast terminal sliding mode tracking control for an underwater vehicle-manipulator system with extended state observer,10.3390/jmse9050501
+226,Scopus-S2,2024,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark",Discrete Quad Neural Dynamics for Inverse-Free Control of Model-Unavailable Continuum Robots,10.1109/tie.2024.3357892
+227,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,Study of Inverse Kinematics Solution for a 5-Axis Mitsubishi RV-2AJ Robotic Arm Using Deep Reinforcement Learning,10.1007/978-3-031-71318-7_36
+228,Scopus-S2,2025,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Solving Inverse Kinematics Problems Using Strait of Messina Evolutionary Algorithm,10.1145/3759355.3759367
+229,Scopus-S2,2024,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Comparative Analysis of Levenberg-Marquardt and Neural Network Algorithm for 6-DOF Robot Manipulators in Precision Agriculture,10.1109/agreta61912.2024.10949025
+230,Scopus-S2,2015,UNCERTAIN,IC3,comparison present but no metric keyword,Structural design and gait planning of hydraulically actuated quadruped bionic robot,
+231,Scopus-S2,2005,UNCERTAIN,IC3,comparison present but no metric keyword,Comparative experiments on task space control with redundancy resolution,10.1109/iros.2005.1545203
+232,Scopus-S2,2024,UNCERTAIN,IC3,comparison present but no metric keyword,Design optimizer for planar soft-growing robot manipulators,10.1016/j.engappai.2023.107693
+233,Scopus-S2,2021,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Particle Swarm Optimization aided PID gait controller design for a humanoid robot,10.1016/j.isatra.2020.12.033
+234,Scopus-S2,2025,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,NEURAL NETWORK-BASED FORWARD KINEMATICS FOR A 6-DOF 3-RRPS PARALLEL ROBOT: A COMPARATIVE STUDY OF MLP AND RBF MODELS,10.1115/imece2025-166471
+235,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,Exploring Analytical and Deep Learning Solutions for High-Degree-of-Freedom Inverse Kinematics,10.1088/1742-6596/3027/1/012039
+236,Scopus-S2,2023,EXCLUDE,IC7,language=Chinese,Optimization method for the configuration of redundant manipulators; [一种冗余机械臂构型优化方法],10.11990/jheu.202203031
+237,Scopus-S2,2013,UNCERTAIN,IC3,comparison present but no metric keyword,Comparative analysis of arm control performance using computational intelligence,10.1007/978-3-642-37374-9_19
+238,Scopus-S2,2024,UNCERTAIN,IC3,comparison present but no metric keyword,21st International Conference on Applied Mechanics and Mechanical Engineering,
+239,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,EFFICIENT COMPUTATION OF 2D SELF-MOTION MANIFOLDS: A METHOD COMPARISON IN A 5-DOF ROBOT,10.2507/36th.daaam.proceedings.026
+240,Scopus-S2,2024,UNCERTAIN,IC3,comparison present but no metric keyword,"Recent Trends in Materials and Manufacturing Technologies, RMMT 2022",
+241,Scopus-S2,2017,UNCERTAIN,IC3,comparison present but no metric keyword,Comparing robotic control using a spiking model of Cerebellar network and a gain adapting forward-inverse model,10.1109/icacci.2017.8125900
+242,Scopus-S2,2025,INCLUDE,OK,"post-hoc INCLUDE: full-text targets a 7-DOF redundant manipulator (IC4 met) with multi-objective fitness reporting joint continuity, manipulability, and pose error against NSGA-II baselines. Implemented as solve_emsa_ik.m.",EMSA-IK: a real-time evolutionary multi-objective semi-analytical inverse kinematics algorithm for redundant manipulators,10.1108/ir-08-2024-0355
+243,Scopus-S2,2021,UNCERTAIN,IC3,comparison present but no metric keyword,Optimized Gait Planning of Biped Robot Using Multi-objective JAYA Algorithm,10.1007/978-3-030-62324-1_16
+244,Scopus-S2,2024,EXCLUDE,IC4,manipulator < 5 DOF,Investigating Feed-Forward Back-Propagation Neural Network with Different Hyperparameters for Inverse Kinematics of a 2-DoF Robotic Manipulator: A Comparative Study,10.51537/chaos.1375866
+245,Scopus-S2,2025,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Deep Learning-Driven Analysis of a Six-Bar Mechanism for Personalized Gait Rehabilitation,10.1115/1.4066859
+246,Scopus-S2,2022,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Position error estimation and compensation of 3-DOF delta robot under the effect of link tolerances,10.1016/j.matpr.2022.02.492
+247,Scopus-S2,2025,EXCLUDE,IC7,language=Chinese,Error Analysis and Compensation of 3‒PTT Parallel Robot; [3‒PTT 并联机器人的误差分析与补偿],10.12454/j.jsuese.202300801
+248,Scopus-S2,2022,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,An improved inverse kinematics solution for 6-DOF robot manipulators with offset wrists,10.1017/s0263574721001648
+249,Scopus-S2,2015,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",A comparison of tracking control methods in multi-legged robots,10.1109/ascc.2015.7244529
+250,Scopus-S2,2023,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Comparative studies and performance analysis on neural-dynamics-driven control of redundant robot manipulators with unknown models,10.1016/j.engappai.2022.105528
+251,Scopus-S2,2024,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A Novel Approach Exploiting Contact Points on Robot Structures for Enhanced End-Effector Accuracy,10.1007/978-3-031-59257-7_33
+252,Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,Real-Time Predictive Kinematics Control of Redundancy: a Benchmark of Optimal Control Approaches,10.1109/iros47612.2022.9981675
+253,Scopus-S2,2024,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A reinforcement learning-based neighborhood search operator for multi-modal optimization and its applications,10.1016/j.eswa.2024.123150
+254,Scopus-S2,2026,EXCLUDE,IC4,manipulator < 5 DOF,Fast integral terminal synchronous sliding mode control for pantograph robots,10.1016/j.isatra.2025.12.016
+255,Scopus-S2,2016,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Trajectory correction and locomotion analysis of a hexapod walking robot with semi-round rigid feet,10.3390/s16091392
+256,Scopus-S2,2006,UNCERTAIN,IC3,comparison present but no metric keyword,Neural network-based kinematic inversion of industrial redundant robots using cooperative fuzzy hint for the joint limits avoidance,10.1109/tmech.2006.882991
+257,Scopus-S2,2020,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Adolescent Identity Search Algorithm (AISA): A novel metaheuristic approach for solving optimization problems,10.1016/j.asoc.2020.106503
+258,Scopus-S2,2026,UNCERTAIN,IC3,comparison present but no metric keyword,Investigation of Musculoskeletal-Inspired Architecture and Honeycomb Lightweight Design for Electro-Hydraulic Humanoid Robot Legs,10.1111/nyas.70175
+259,Scopus-S2,2021,UNCERTAIN,IC3,comparison present but no metric keyword,Modelling of a GSA-based framework of an agent based system within parameter boundaries: applications to robotics and automatic voltage regulator systems,10.1504/ijmic.2021.123428
+260,Scopus-S2,2024,UNCERTAIN,IC3,comparison present but no metric keyword,Inverse kinematics solution and control method of 6-degree-of-freedom manipulator based on deep reinforcement learning,10.1038/s41598-024-62948-6
+261,Scopus-S2,2023,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Boomerang algorithm based on swarm optimization for inverse kinematics of 6 DOF open chain manipulators,10.55730/1300-0632.3988
+262,Scopus-S2,2022,EXCLUDE,IC2,no comparison/benchmark wording in abstract,Multi-objective grasp pose optimisation for robotic 3D pipe assembly manipulation,10.1016/j.rcim.2022.102326
+263,Scopus-S2,2006,UNCERTAIN,IC3,comparison present but no metric keyword,Comparative analysis of artificial neural network training methods for inverse kinematics learning,10.1007/11881216_19
+264,Scopus-S2,2022,UNCERTAIN,IC3,comparison present but no metric keyword,Wild Geese Migration Optimization Algorithm: A New Meta-Heuristic Algorithm for Solving Inverse Kinematics of Robot,10.1155/2022/5191758
+265,Scopus-S2,2021,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A parallel learning particle swarm optimizer for inverse kinematics of robotic manipulator,10.1002/int.22543
+266,Scopus-S2,2024,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark",KineFormer: Solving the Inverse Modeling Problem of Soft Robots Using Transformers,10.1007/978-3-031-64495-5_3
+267,Scopus-S2,2026,EXCLUDE,IC4,manipulator < 5 DOF,Comparative Analysis of MLP and KAN Models for Solving Inverse Kinematics of a 3-R Manipulator,10.1007/978-981-95-2901-8_19
+268,Scopus-S2,2015,UNCERTAIN,IC3,comparison present but no metric keyword,Comparative study on the kinematic and static performance of two 1T2R parallel manipulators,10.1007/978-3-319-18126-4_37
+269,Scopus-S2,1995,EXCLUDE,IC6,year=1995 < 2005,Optimization schemes for learning the forward and inverse kinematic equations with neural network,
+270,IEEE-S3|Scopus-S2,2012,EXCLUDE,EC4,human pose / mesh / animation,An inverse kinematics algorithm for upper-limb joint reconstruction during robot-aided motor therapy,10.1109/biorob.2012.6290861
+271,Scopus-S2,2015,UNCERTAIN,IC3,comparison present but no metric keyword,Comparative study of inverse kinematic solution for a five joint robot using various neural network models,
+272,IEEE-S3|Scopus-S2,2011,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A new finger inverse kinematics method for an anthropomorphic hand,10.1109/robio.2011.6181470
+273,Scopus-S2,2020,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Comparative study of various machine learning algorithms and Denavit–Hartenberg approach for the inverse kinematic solutions in a 3-PPSS parallel manipulator,10.1108/ir-11-2019-0233
+274,Scopus-S2,1990,EXCLUDE,IC6,year=1990 < 2005,A comparative study of inverse dynamics of manipulators with closed‐chain geometry,10.1002/rob.4620070402
+275,Scopus-S2,2024,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Tensor train for global optimization problems in robotics,10.1177/02783649231217527
+276,Scopus-S2,2024,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Trajectory planning and inverse kinematics solution of Kuka robot using COA along with pick and place application,10.1007/s11370-023-00501-6
+277,Scopus-S2,2021,EXCLUDE,IC7,language=Chinese,Trajectory Optimization of Dual Beam Laser Welding Robot; [双光束激光焊接机器人轨迹优化],10.3788/cjl202148.1802020
+278,Scopus-S2,2025,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,Layered and Decoupled Calibration: A High-Precision Kinematic Identification for a 5-DOF Serial-Parallel Manipulator with Remote Drive,10.3390/act14120577
+279,Scopus-S2,2019,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Kinematics and reliable analysis of decoupled parallel mechanism for ankle rehabilitation,10.1016/j.microrel.2019.05.016
+280,Scopus-S2,2024,EXCLUDE,EC4,human pose / mesh / animation,"Enhancing Human Motion Imitation in Humanoid Robots: A Comparative Study of ANN, ANFIS, and GA-Optimized ANFIS for Inverse Kinematics of the Surena-V Humanoid's Arm",10.1109/icrom64545.2024.10903524
+281,Scopus-S2,2025,UNCERTAIN,IC3,comparison present but no metric keyword,Kinematic Analysis and Workspace Analysis of a 6-DOF Robotic Manipulator,10.1109/issmas65783.2025.11103341
+282,Scopus-S2,2023,UNCERTAIN,IC3,comparison present but no metric keyword,Hardware Design of FPGA-Based Embedded Heuristic Optimization Technique for Solving a Robotic Problem: IC-PSO,10.1007/s13369-023-07655-6
+283,Scopus-S2,2015,UNCERTAIN,IC3,comparison present but no metric keyword,Geometric shape drawing using a 3 link planar manipulator,10.1109/ic3.2015.7346715
+284,Scopus-S2,2021,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,An Intelligent Inverse Kinematic Solution of Universal 6-DOF Robots,10.1007/978-3-030-62324-1_10
+285,Scopus-S2,2020,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Accurate control of Aerial Manipulators outdoors. A reliable and self-coordinated nonlinear approach,10.1016/j.ast.2020.105731
+286,IEEE-S3|Scopus-S2,2005,UNCERTAIN,IC3,comparison present but no metric keyword,Neural network learning from hint for the inverse kinematics problem of redundant arm subject to joint limits,10.1109/iros.2005.1545082
+287,Scopus-S2,2020,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Evolution of optimization algorithm operated robotic arms with different DOF,
+288,Scopus-S2,2019,UNCERTAIN,IC3,comparison present but no metric keyword,Dr. Eureka: a humanoid robot manipulation case study,10.1017/s0269888919000213
+289,Scopus-S2,2025,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Dynamic modeling and kinematics verification for quadruped robot,10.1007/s41315-025-00472-0
+290,Scopus-S2,2019,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Neuro-fuzzy system for 3-dof parallel robot manipulator,10.1109/niles.2019.8909333
+291,Scopus-S2,2020,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Dynamic Modeling and Adaptive Robust Synchronous Control of Parallel Robotic Manipulator for Industrial Application,10.1155/2020/5640246
+292,IEEE-S3,2009,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Comparison between a 4-DOF hybrid module and Tricept module focusing on inverse kinematics and stiffness,10.1109/robio.2009.5420391
+293,IEEE-S3,2025,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Forward and Inverse Kinematics of a 5R Parallel Planar Robot,10.1109/temsconlatam65810.2025.11238935
+294,IEEE-S3,2026,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Efficiency Analysis of the Newton-Raphson Method for Solving Inverse Kinematics Problem of the KUKA Manipulator,10.1109/ieeeconf68869.2026.11460693
+295,IEEE-S3,2021,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,"The Beta distributed PSO, β-PSO, with application to Inverse Kinematics",10.1109/nccc49330.2021.9428811
+296,IEEE-S3,2015,UNCERTAIN,IC3,comparison present but no metric keyword,The Global Inverse Kinematics Solution in the Adept Six 300 Manipulator with Singularities Robustness,10.1109/cscs.2015.62
+297,IEEE-S3,2017,EXCLUDE,IC4,manipulator < 5 DOF,Design and comparison of linear feedback control laws for inverse Kinematics based robotic arm,10.1109/icet.2017.8281705
+298,IEEE-S3,2021,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Comparison of Three Meta-heuristic Algorithms for Solving Inverse Kinematics Problems of Variable Curvature Continuum Robots,10.1109/ecmr50962.2021.9568789
+299,IEEE-S3,2022,UNCERTAIN,IC3,comparison present but no metric keyword,Solve the Inverse Kinematics of Robot Arms using Sand Cat Swarm Optimization (SCSO) Algorithm,10.1109/ictacse50438.2022.10009772
+300,IEEE-S3,2012,UNCERTAIN,IC3,comparison present but no metric keyword,Forward and inverse kinematics of a robotic frog,10.1109/ihci.2012.6481850
+301,IEEE-S3,2019,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Inverse kinematics of Manipulator Robot using a PSO Metaheuristic with Adaptively Exploration,10.1109/intercon.2019.8853568
+302,IEEE-S3,1995,EXCLUDE,IC6,year=1995 < 2005,Regularization of inverse kinematics for redundant manipulators using neural network inversions,10.1109/icnn.1995.488161
+303,IEEE-S3,2020,UNCERTAIN,IC3,comparison present but no metric keyword,Predictive Damped Inverse Kinematics for Redundant and Underactuated Robotic Systems,10.1109/icca51439.2020.9264372
+304,IEEE-S3,2021,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Discrete-time closed-loop inverse kinematics: A comparison between Euler and RK4 methods,10.1109/med51440.2021.9480337
+305,IEEE-S3,2000,EXCLUDE,IC6,year=2000 < 2005,Modeling of robot inverse kinematics using two ANN paradigms,10.1109/tencon.2000.892245
+306,IEEE-S3|IEEE-S4,2022,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,An adaptation of FABRIK algorithm for serial robot’s inverse kinematics,10.1109/icev56253.2022.9959663
+307,IEEE-S3,2009,UNCERTAIN,IC3,comparison present but no metric keyword,Performance analysis of FIK and DLS inverse kinematics using six degree of freedom manipulator,10.1109/robio.2009.5420856
+308,IEEE-S3,2021,EXCLUDE,IC2,no comparison/benchmark wording in abstract,Social Spider Optimization for Solving Inverse Kinematics for Both Humanoid Robotic Arms,10.1109/i2cacis52118.2021.9495922
+309,IEEE-S3,2013,UNCERTAIN,IC3,comparison present but no metric keyword,High-index norm approach: A redundancy resolution scheme for inverse kinematics of redundant serial manipulators,10.1109/robomech.2013.6685489
+310,IEEE-S3,2023,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Inverse Kinematics Optimization for Humanoid Robotic Legs Based on Particle Swarm Optimization,10.1109/dese58274.2023.10100167
+311,IEEE-S3,2023,UNCERTAIN,IC3,comparison present but no metric keyword,Data Driven Approach for Inverse Kinematics in 2D and 3D,10.1109/cict59886.2023.10455509
+312,IEEE-S3|IEEE-S4,2009,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,A new inverse kinematics method for three dimensional redundant manipulators,
+313,IEEE-S3,1998,EXCLUDE,IC6,year=1998 < 2005,Genetic-based fuzzy model for inverse kinematics solution of robotic manipulators,10.1109/icsmc.1998.724981
+314,IEEE-S3,1994,EXCLUDE,IC6,year=1994 < 2005,On the inverse kinematics of space manipulators for avoiding dynamic singularities,10.1109/robot.1994.351038
+315,IEEE-S3,2023,EXCLUDE,IC2,no comparison/benchmark wording in abstract,A Review on Inverse kinematics Solution of Robotic Arm Movement,10.1109/sitis61268.2023.00049
+316,IEEE-S3,2015,UNCERTAIN,IC3,comparison present but no metric keyword,Inverse kinematics of a redundant manipulator based on conformal geometry using geometric approach,
+317,IEEE-S3,2009,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark",Application of Cylindrical Elastic Elements for Stiffness Control of Tendon-Driven Manipulator and Inverse Kinematics Evaluation,10.1109/cisis.2009.68
+318,IEEE-S3,2025,EXCLUDE,EC4,human pose / mesh / animation,A Straightforward IMU-Based Upper Limb Inverse Kinematics Compared with Open-Source Vision Algorithms,10.1109/bats67559.2025.11336187
+319,IEEE-S3,2023,EXCLUDE,IC4,manipulator < 5 DOF,Experimental Investigation into The System Performance of Rack and Pinion Gear Using Inverse Kinematics for Lifting Mechanism in ABU Robocon Mobile Robot,10.1109/icramet60171.2023.10366634
+320,IEEE-S3,2018,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Kinematic Calibration of a 2-DoF Over-Constrained Parallel Mechanism Using Real Inverse Kinematics,10.1109/access.2018.2878976
+321,IEEE-S3,2021,EXCLUDE,EC4,human pose / mesh / animation,HybrIK: A Hybrid Analytical-Neural Inverse Kinematics Solution for 3D Human Pose and Shape Estimation,10.1109/cvpr46437.2021.00339
+322,IEEE-S3,2023,EXCLUDE,EC4,human pose / mesh / animation,NIKI: Neural Inverse Kinematics with Invertible Neural Networks for 3D Human Pose and Shape Estimation,10.1109/cvpr52729.2023.01243
+323,IEEE-S3,2025,EXCLUDE,EC4,human pose / mesh / animation,HybrIK-X: Hybrid Analytical-Neural Inverse Kinematics for Whole-Body Mesh Recovery,10.1109/tpami.2025.3528979
+324,IEEE-S3,2015,EXCLUDE,IC2,no comparison/benchmark wording in abstract,TRAC-IK: An open-source library for improved solving of generic inverse kinematics,10.1109/humanoids.2015.7363472
+325,IEEE-S3,2011,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Solvability-Unconcerned Inverse Kinematics by the Levenberg–Marquardt Method,10.1109/tro.2011.2148230
+326,IEEE-S3,2016,UNCERTAIN,IC3,comparison present but no metric keyword,Inverse kinematics in minimum-time trajectory planning for kinematically redundant manipulators,10.1109/iecon.2016.7793436
+327,IEEE-S3,2020,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,M-FABRIK: A New Inverse Kinematics Approach to Mobile Manipulator Robots Based on FABRIK,10.1109/access.2020.3038424
+328,IEEE-S3,2021,EXCLUDE,EC3,"continuum/cable/soft-only, no serial-arm benchmark",Learning-based Inverse Kinematics from Shape as Input for Concentric Tube Continuum Robots,10.1109/icra48506.2021.9562085
+329,IEEE-S3|IEEE-S4,2022,UNCERTAIN,IC3,comparison present but no metric keyword,A Novel Solution to the Inverse Kinematics Problem of General 7R Robots,10.1109/access.2022.3184451
+330,IEEE-S3,2020,UNCERTAIN,IC3,comparison present but no metric keyword,A Study on Sparse Hierarchical Inverse Kinematics Algorithms for Humanoid Robots,10.1109/lra.2019.2954820
+331,IEEE-S3,2021,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,MB-RRT: An Inverse Kinematics Solver of Reduced Dimension,10.1109/access.2021.3123645
+332,IEEE-S3,2013,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Inverse kinematics of a bilateral robotic human upper body model based on motion analysis data,10.1109/icra.2013.6631336
+333,IEEE-S3,2012,EXCLUDE,EC3,"parallel-only, no serial-arm benchmark",Novel algorithms for computation of inverse kinematics and inverse dynamics of Gough-Stewart platform,10.1109/iros.2012.6386014
+334,IEEE-S3,2024,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Hybridizing Long Short-Term Memory Network and Inverse Kinematics for Human Manipulation Prediction in Smart Manufacturing,10.1109/icarcv63323.2024.10821563
+335,IEEE-S3,2026,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,IKSel: Selecting Good Seed Joint Values for Fast Numerical Inverse Kinematics Iterations,10.1109/tase.2026.3659225
+336,IEEE-S3,2022,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Inverse kinematics of a subsea constrained manipulator based on FABRIK-R,10.1109/oceans47191.2022.9977290
+337,IEEE-S3,2026,UNCERTAIN,IC4,DOF count not stated explicitly in abstract,Efficient Hybrid Approach to Inverse Kinematics of Mobile Continuum Manipulators,10.1109/access.2026.3679335
+338,IEEE-S4,2020,EXCLUDE,IC1,no inverse-kinematics mention in title/abstract,Motion Planning of Redundant Manipulator With Variable Joint Velocity Limit Based on Beetle Antennae Search Algorithm,10.1109/access.2020.3012564
+339,IEEE-S4,2024,EXCLUDE,IC1,no inverse-kinematics mention in title/abstract,Novel IBVS System Design for Cable-Driven Hyper-Redundant Manipulator With MLESAC-Based Feature Vector Optimization,10.1109/tii.2023.3306560
+340,IEEE-S4,2011,INCLUDE,OK,IK + comparison + metric + serial >=5DOF,A comparison study of the numerical integration methods in the trajectory tracking application of redundant robot manipulators,
+341,IEEE-S4,2024,EXCLUDE,IC1,no inverse-kinematics mention in title/abstract,Dynamic Modeling of Double Segment Redundant Gough-Stewart Hybrid Manipulator based on the Principle of Virtual Work,10.1109/icrom64545.2024.10903648
+342,IEEE-S4,2025,EXCLUDE,IC1,no inverse-kinematics mention in title/abstract,"BEAVR: Bimanual, multi-Embodiment, Accessible, Virtual Reality Teleoperation System for Robots",10.1109/iccr67607.2025.11372114
+343,IEEE-S4,2010,UNCERTAIN,IC3,comparison present but no metric keyword,Comparison of multi-sensor admittance control in joint space and task space for a seven degree of freedom upper limb exoskeleton,10.1109/biorob.2010.5628069

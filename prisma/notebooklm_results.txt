@@ -1,0 +1,16 @@
+# NotebookLM batch responses - RUN 3 (canonical CLAUDE.md prompt with DOI from row 1)
+# Format: ROW|YEAR|DECISION|TRIGGER|RATIONALE|DOI|TITLE_SHORT
+# Source: NotebookLM with merged_dedup.csv as single source
+# Started: 2026-04-25
+
+### BATCH 1 (rows 1-10) - RUN 3 canonical CLAUDE.md prompt ###
+1|2024|EXCLUDE|EC2|The paper focuses on trajectory planning and explicitly does not solve the inverse kinematics problem.|10.23919/ccc63176.2024.10661788|A Two-Stage Time-Optimal Trajectory Planning Algorithm with
+2|2024|EXCLUDE|IC4|The abstract does not explicitly state the manipulator has at least 5 degrees of freedom.|10.1016/j.jestch.2024.101686|An obstacle-avoidance inverse kinematics method for robotic
+3|2024|EXCLUDE|IC4|The abstract does not explicitly state the manipulator has at least 5 degrees of freedom.|10.1002/rob.22362|An improved inverse kinematics solution method for the hyper
+4|2018|INCLUDE|OK|Proposes an ABC-based algorithm compared against standard ABC using mean squared error on a 5 DOF robot arm.|10.1016/j.asoc.2018.08.028|A new ABC variant for solving inverse kinematics problem in
+5|2025|EXCLUDE|EC3|The paper addresses a cable-driven flexible robot rather than a standard serial revolute manipulator.|10.1007/s11431-024-2819-2|Modeling and control of a rigid-flexible coupling robot for
+6|2024|EXCLUDE|IC4|The abstract mentions a UR5 robot but does not explicitly state its degrees of freedom.|10.1109/jsen.2024.3429329|A Two-Stage Trajectory Planning Method for Online Robotic Qu
+7|2017|EXCLUDE|IC4|The abstract mentions a Baxter robot arm but does not explicitly state its degrees of freedom.|10.1109/tsmc.2016.2615061|Teleoperation Control Based on Combination of Wave Variable
+8|1986|EXCLUDE|IC6|The paper was published in 1986 which is before the required cutoff year of 2005.|NONE|KINEMATIC ALGORITHMS FOR REAL-TIME ROBOT CONTROL.
+9|2022|EXCLUDE|IC4|The abstract explicitly describes a two-link planar robot arm which is less than 5 DOF.|10.1115/imece2022-95524|BENCHMARKING VARIOUS NONLINEAR CONTROL DESIGN TECHNIQUES FOR
+10|2023|EXCLUDE|IC4|The abstract does not explicitly state the mobile manipulators have at least 5 degrees of freedom.|10.3390/sym15051080|A Review and Comparative Study of Differential Evolution Alg

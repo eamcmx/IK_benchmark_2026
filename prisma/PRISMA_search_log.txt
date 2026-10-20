@@ -1,0 +1,488 @@
+================================================================================
+PRISMA-COMPLIANT SEARCH LOG
+Project: A Comparative Benchmark of Inverse Kinematics Solvers for Serial and
+         Redundant Manipulators (6 to 13 DOF) under Warm-Started Recursive
+         Trajectory Tracking
+Author:  Emmanuel Merchan
+Started: 2026-04-25
+================================================================================
+
+This file documents every database query executed, the date, the search
+string verbatim, the number of records returned, and the screening decisions.
+It is maintained in the order events occurred, so an auditor can reproduce
+the search and its outcome end-to-end.
+
+PRISMA 2020 reporting items addressed by this log:
+  Item 6  - Information sources
+  Item 7  - Search strategy
+  Item 8  - Selection process
+  Item 9  - Data collection process (records identified, screened, excluded)
+  Item 14 - Synthesis methods (mapped to manuscript Section 2 / Related Work)
+
+
+--------------------------------------------------------------------------------
+ELIGIBILITY CRITERIA (set a priori; agreed with author 2026-04-25)
+--------------------------------------------------------------------------------
+Research question (PICO-style):
+  Population : serial robotic manipulators with revolute joints, primarily
+               6/7/8 DOF (>= 5 DOF tolerated; hyper-redundant up to ~10 DOF
+               kept as supporting context).
+  Intervention: a numerical, quasi-Newton, heuristic, or metaheuristic IK
+               solver applied to a 6D pose target (or position-only with
+               explicit method discussion).
+  Comparator : at least one other IK method or explicit baseline.
+  Outcome    : any quantitative comparison metric (success rate, accuracy,
+               iterations, time, smoothness, manipulability, joint-limit
+               clearance, singularity behaviour).
+
+Inclusion criteria (a record must satisfy ALL):
+  IC1. Addresses the inverse kinematics problem for a serial revolute
+       manipulator.
+  IC2. Either (a) compares >= 2 IK methods on a common testbed, or
+       (b) proposes a new method and benchmarks it against >= 1 prior
+       method. Cross-family comparison NOT required (intra-family
+       comparisons such as PSO vs GA vs ABC qualify).
+  IC3. Reports at least one quantitative comparison metric.
+  IC4. Manipulator has >= 5 DOF.
+  IC5. Peer-reviewed journal article OR conference paper indexed in
+       Scopus or IEEE Xplore.
+  IC6. Published 2005-01-01 or later.
+  IC7. English language.
+
+Exclusion criteria (any one disqualifies):
+  EC1. Pure analytical / closed-form IK with no comparison or benchmarking.
+  EC2. Inverse statics, differential kinematics, or trajectory optimisation
+       only - no IK position/orientation problem solved.
+  EC3. Cable-driven, continuum, soft, or parallel-only robots (kept only
+       if the paper also benchmarks serial-arm IK methods).
+  EC4. Human pose estimation, animation rigging, or 3D mesh reconstruction.
+  EC5. Editorials, errata, abstracts-only, withdrawn / retracted papers,
+       books, theses.
+  EC6. Duplicate of a record already included from another database (kept
+       once, both source IDs noted).
+  EC7. No abstract available in the export AND title insufficient to
+       assess relevance.
+
+Primary screening: title + abstract.
+Full-text screening (subsequent stage): methodology section.
+
+
+================================================================================
+SEARCH 1 - SCOPUS (initial, narrow)
+================================================================================
+Database:        Scopus (www.scopus.com)
+Date executed:   2026-04-25
+Field:           TITLE-ABS-KEY (Article title, Abstract, Keywords)
+Search string:
+    "inverse kinematics" AND ( benchmark OR comparison ) AND
+    ( "redundant manipulator" OR "7-DOF" ) AND
+    ( "Levenberg-Marquardt" OR "damped least squares" OR FABRIK OR
+      "genetic algorithm" OR "particle swarm" )
+
+Records identified:        15
+Notes on outcome:          Query intentionally narrow to surface direct
+                           method-named comparisons. Result count flagged
+                           as suspiciously low; over-constrained because it
+                           required both a DOF specifier AND a specific
+                           solver-name token. Search 2 broadens.
+
+Screening:
+  Records retained after title/abstract screen: 10
+  Excluded: 5 (off-topic continuum / 3-DOF / unrelated optimisation)
+
+Records retained:
+  S1.01  Rokbani (2026)            Robotics 15(3):52     - 0 cit  - 7-DOF iiwa, RS-PSO
+  S1.02  Lakshmi Narayanan et al.  J. Field Robot. 43(1) - 2 cit  - PRISMA SLR
+         (2026)
+  S1.03  Khaleel & Humaidi (2024)  Int. Rev. Appl. Sci.  - 29 cit - NNGA vs PSO 3-DOF
+                                   Eng. 15(2):242-251
+  S1.04  Xu, Li, Yang, Zhao, Liu   J. Intell. Robot.     - 8 cit  - FABRIK + SQP
+         (2023)                    Syst. 108(4):62
+  S1.05  Wu, Yu, Pan, Pei (2022)   Sci. China Tech. Sci. - 17 cit - FABRIK continuum
+                                   65(12):2952-2966
+  S1.06  Moreno & Alcantara (2022) IEEE ICEV 2022        - 6 cit  - FABRIK 10-DOF
+  S1.07  Zhang, Wang, Gao (2021)   Int. J. Adv. Robotic  - 12 cit - DE 6/7-DOF
+                                   Syst. 18(3)
+  S1.08  Ghosh, Ray, Singh (2021)  Int. J. Modelling     - 3 cit  - GSA 7-DOF
+                                   Identif. Control 39(2)
+  S1.09  Dereli & Koker (2020)     Inverse Probl. Sci.   - 60 cit - Firefly 7-DOF
+                                   Eng. 28(5):601-613
+  S1.10  Di Vito, Natale, Antonelli IFAC PapersOnLine    - 49 cit - DLS variants 7-DOF
+         (2017)                    50(1):6869-6874
+
+================================================================================
+SEARCH 2 - SCOPUS (broadened)
+================================================================================
+Database:        Scopus
+Date executed:   2026-04-25
+Field:           TITLE-ABS-KEY
+Search string:
+    "inverse kinematics" AND ( comparative OR benchmark ) AND
+    ( manipulator OR robot )
+
+Records identified:        293
+Notes on outcome:          Removed the DOF specifier and the solver-name
+                           constraint. Sorted "Cited by (highest)" to
+                           surface the foundational comparisons. Top 20
+                           extracted manually; deeper screening deferred
+                           pending IEEE Xplore overlap analysis.
+
+Top-cited records retained after title/abstract screen (first 20 by citations):
+  S2.01  Rahkar Farshi (2021)            Neural Comput. Appl. 33(4)    - 230 cit - BRO + PUMA 560
+  S2.02  Rocha, Tonetto, Dias (2011)     Robot. Comput.-Integr.        - 166 cit - DH vs screw
+                                          Manuf. 27(4):723-728
+  S2.03  Colome & Torras (2015)          IEEE/ASME Trans. Mech.        - 125 cit - CLIK 7-DOF WAM
+                                          20(2):944-955
+  S2.04  El-Sherbiny, Elhosseini,        Ain Shams Eng. J. 9(4)        - 100 cit - ANN/ANFIS/GA 5-DOF
+         Haikal (2018)
+  S2.05  Lopez-Franco et al. (2018)      Eng. Appl. AI 74:104-120      -  88 cit - soft-computing
+  S2.06  Bogar & Beyhan (2020)           Appl. Soft Comput. 95:106503  -  81 cit - AISA 7-DOF
+  S2.07  Pham, Castellani, Fahmy         IEEE INDIN 2008:493-498       -  73 cit - Bees 3-DOF
+         (2008)
+  S2.08  Duleba & Opalka (2013)          Int. J. Appl. Math.           -  69 cit - Jacobian methods
+                                          Comput. Sci. 23(2):373-382
+  S2.09  Nakanishi, Cory, Mistry,        IEEE/RSJ IROS 2005            -  60 cit - 7-DOF redundancy
+         Peters, Schaal (2005)            :3901-3908
+  S2.10  El-Sherbiny, Elhosseini,        Appl. Soft Comput. 73:24-38   -  54 cit - ABC variant 5-DOF
+         Haikal (2018, second paper)
+  S2.11  Chen, Zhu, Zhang (2015)         Int. J. Adv. Robotic          -  52 cit - screw 6-DOF
+                                          Syst. 12(10):140
+  S2.12  Sariyildiz, Cakiray, Temeltas   Int. J. Adv. Robotic          -  52 cit - quaternion vs
+         (2011)                          Syst. 8(5):9-24                          dual-quat vs exp
+  S2.13  Abdor-Sierra, Merchan-Cruz,     Results in Engineering        -  50 cit - **AUTHOR'S OWN
+         Rodriguez-Canizo (2022)         16:100597                                 PRIOR WORK**
+                                                                                  metaheuristics on
+                                                                                  UR5 and Motoman SIA20D
+  S2.14  Assal, Watanabe, Izumi (2006)   IEEE/ASME Trans. Mech.        -  48 cit - NN+fuzzy redundant
+                                          11(5):593-603
+  S2.15  Yang, Wang, Li, Li, Su (2017)   IEEE Trans. SMC 47(8)         - 320 cit - teleop CLIK NN
+                                          :2125-2136
+  S2.16  Giorelli et al. (2015)          IEEE T-RO 31(4):823-834       - 206 cit - soft arm Jacobian/NN
+  S2.17  Seyyedabbasi et al. (2021)      Knowl.-Based Syst. 223        - 141 cit - RL+metaheuristic
+                                          :107044
+  S2.18  Kashyap & Parhi (2021)          ISA Trans. 114:306-330        -  91 cit - PSO+PID humanoid
+  S2.19  Koptev, Figueroa, Billard       IEEE RA-L 8(2):480-487        -  55 cit - QP-IK 7-DOF
+         (2023)
+  S2.20  Staicu (2009)                   Robotica 27(2):199-207        -  50 cit - Delta parallel
+
+Cross-database flag for S2.13: This is the principal author's own prior
+publication. The current benchmark is positioned as its multi-family
+extension. Recorded here for transparency.
+
+
+--------------------------------------------------------------------------------
+SCREENING ROLLUP AFTER SEARCHES 1 + 2 (Scopus only)
+--------------------------------------------------------------------------------
+Records identified in Scopus (S1 + S2 union):                308 (15 + 293)
+Duplicates removed (S1 contained within S2):                  10
+Unique Scopus records:                                       298
+Records screened (title + abstract, top 20 of S2 + all S1):   30
+Records retained after screening:                             27
+Records pending full-text screen:                             27
+
+
+================================================================================
+SEARCH 3 - IEEE XPLORE (broad: title-IK + abstract-comparison)
+================================================================================
+Database:        IEEE Xplore (ieeexplore.ieee.org)
+Date executed:   2026-04-25
+Field:           Command-search syntax with field tags
+Search string (literal, as entered):
+    ("Document Title":"inverse kinematics") AND
+    ("Abstract":comparison OR "Abstract":benchmark OR "Abstract":comparative)
+
+Sort order:      Most Cited By Papers (descending)
+
+Records identified:        70   (Conferences: 57, Journals: 13)
+Notes on outcome:          Initial attempt with parenthesised OR group inside
+                           a single field clause returned zero results because
+                           IEEE Xplore command syntax does not support
+                           ("Field":(a OR b OR c)) — each token must repeat
+                           the field tag. Reformulated as above and executed
+                           successfully.
+                           First attempt was routed via institutional proxy
+                           (uwe.idm.oclc.org) requiring SSO; reissued with
+                           direct ieeexplore.ieee.org URL — search results are
+                           public, only full-text behind paywall.
+
+Top-cited records retained after title/abstract screen (first 22 by citations):
+  I3.01  Beeson & Ames (2015)            IEEE Humanoids 2015           - 280 cit - TRAC-IK
+                                                                                   open-source library
+                                                                                   (vs KDL pseudoinv)
+  I3.02  Sugihara (2011)                 IEEE T-RO 27(5)               - 194 cit - LM-IK foundational
+  I3.03  Colome & Torras (2015)          IEEE/ASME T-Mech 20(2)        - 122 cit - DUPL of S2.03
+  I3.04  Pham, Castellani, Fahmy (2008)  IEEE INDIN 2008               -  55 cit - DUPL of S2.07
+  I3.05  Colome & Torras (2012)          IEEE/RSJ IROS 2012            -  35 cit - 2012 conf precursor
+                                                                                   to S2.03/I3.03
+  I3.06  Reiter, Muller, Gattringer      IEEE IECON 2016               -  25 cit - min-time trajectory
+         (2016)                                                                    redundant
+  I3.07  Sun, Lian, Zhang, Song (2018)   IEEE Access 6                 -  25 cit - 2-DoF parallel
+                                                                                   (excluded - X3)
+  I3.08  Santos, Freire, Carvalho,       IEEE Access 8                 -  19 cit - M-FABRIK mobile
+         Molina, Freire (2020)                                                     manipulator
+  I3.09  Wang, Wu, Wang, Feng, Xu        IEEE RA-L 7(1)                -  17 cit - 2-segment continuum
+         (2022)                                                                    (excluded - X3)
+  I3.10  Liang, Grassmann, Lilge,        IEEE ICRA 2021                -  15 cit - concentric tube
+         Burgner-Kahrs (2021)                                                      continuum (X3)
+  I3.11  Rokbani, Slim, Alimi (2021)     IEEE NCCC 2021                -  15 cit - Beta-PSO IK
+  I3.12  Papaleo, Zollo, Sterzi,         IEEE BioRob 2012              -  14 cit - augmented Jacobian
+         Guglielmelli (2012)                                                       upper-limb therapy
+  I3.13  Legowski (2015)                 IEEE CSCS 2015                -  13 cit - Adept Six 300
+                                                                                   global IK
+  I3.14  Assal, Watanabe, Izumi (2005)   IEEE/RSJ IROS 2005            -  12 cit - DUPL of S2.14
+  I3.15  Djeffal, Mahfoudi, Amouri       IEEE ECMR 2021                -  11 cit - ABC vs PSO vs GA
+         (2021)                                                                    continuum
+  I3.16  Asif, Nasir, Shami, Rizvi,      IEEE ICET 2017                -  11 cit - linear feedback for
+         Gulzar (2017)                                                             IK robotic arm
+  I3.17  Xie, Sun, Chen, Wang, Wang      IEEE Access 10                -  10 cit - 7R robot novel
+         (2022)                                                                    numerical solution
+  I3.18  Hoffman, Polverini, Laurenzi,   IEEE RA-L 5(1)                -  10 cit - sparse hierarchical
+         Tsagarakis (2020)                                                         IK humanoid
+  I3.19  Seyyedabbasi (2022)             IEEE ICTASCE 2022             -  10 cit - Sand Cat Swarm IK
+                                                                                   PUMA 560
+  I3.20  Vera Reyes & Prado Gardini      IEEE INTERCON 2019            -   9 cit - adaptive PSO IK
+         (2019)
+  I3.21  Vaishnavi, Singh, Vijayvargiya, IEEE ICIERA 2021              -   7 cit - 5-DoF metaheuristic
+         Kumar (2021)
+  I3.22  Moreno & Alcantara (2022)       IEEE ICEV 2022                -   6 cit - DUPL of S1.06
+
+Excluded after title/abstract screen (HybrIK / NIKI / HybrIK-X human pose
+estimation, off-topic - X1):                                              4
+Excluded as continuum-only or parallel-only (X3):                         3
+
+================================================================================
+SEARCH 4 - IEEE XPLORE (narrow: with redundancy + solver-name + comparison)
+================================================================================
+Database:        IEEE Xplore
+Date executed:   2026-04-25
+Field:           Command-search across all metadata
+Search string (literal):
+    ("inverse kinematics") AND ("redundant manipulator" OR "7-DOF") AND
+    ("Levenberg-Marquardt" OR "damped least squares" OR "Jacobian" OR
+     FABRIK OR "genetic algorithm" OR "particle swarm") AND
+    (benchmark OR comparison)
+
+Sort order:      Most Cited By Papers (descending)
+
+Records identified:         9   (Conferences: 6, Journals: 3)
+Notes on outcome:          Tighter intersection of Search 3 with redundancy
+                           and solver-name constraints. Complements Search 3
+                           by surfacing records where the solver name appears
+                           in author keywords or full-text rather than the
+                           abstract.
+
+All 9 results recorded:
+  I4.01  Miller & Rosen (2010)           IEEE BioRob 2010              -  35 cit - 7-DOF exoskeleton
+                                                                                   admittance control
+                                                                                   (excluded - X1, no
+                                                                                   IK comparison)
+  I4.02  Cheng, Li, Li, Li (2020)        IEEE Access 8                 -  30 cit - Beetle Antennae
+                                                                                   redundant manipulator
+                                                                                   motion planning
+  I4.03  Xie, Sun, Chen, Wang, Wang      IEEE Access 10                -  10 cit - DUPL of I3.17
+         (2022)
+  I4.04  Huang, Shen, Mei, Chen (2024)   IEEE T-II 20(3)               -   6 cit - cable-driven hyper-
+                                                                                   redundant (X3)
+  I4.05  Moreno & Alcantara (2022)       IEEE ICEV 2022                -   4 cit - DUPL of S1.06/I3.22
+  I4.06  Mohamed, Yahya, Moghavvemi,     ICCAS-SICE 2009               -   2 cit - geometric method
+         Yang (2009)                                                               redundant
+  I4.07  Kamali, Akbari, Namazian,       IEEE ICRoM 2024               -   1 cit - Gough-Stewart hybrid
+         Masouleh, Bahrami (2024)                                                  (excluded - X3)
+  I4.08  Sariyildiz & Temeltas (2011)    IEEE ELECO 2011               -   - cit - numerical integration
+                                                                                   methods comparison
+                                                                                   for trajectory tracking
+                                                                                   redundant
+  I4.09  Posadas-Nava, Carrasco,         IEEE ICCR 2025                -   - cit - VR teleop framework
+         Linares (2025)                                                            (excluded - X1)
+
+
+--------------------------------------------------------------------------------
+DEDUPLICATION ROLLUP AFTER SEARCHES 1 + 2 + 3 + 4
+--------------------------------------------------------------------------------
+Records identified (S1 + S2 + I3 + I4):                       378  (15 + 293 + 70 + 9 minus 9 IEEE-internal duplicates between I3 and I4)
+Records reviewed (top-cited subset across databases):          51
+Cross-database duplicates removed (Scopus also indexes IEEE):  10
+  - Colome & Torras 2015 (S2.03 = I3.03)
+  - Pham, Castellani, Fahmy 2008 (S2.07 = I3.04)
+  - Assal, Watanabe, Izumi 2005/2006 (S2.14 = I3.14)
+  - Moreno & Alcantara 2022 (S1.06 = I3.22 = I4.05)
+  - Xie et al. 2022 (I3.17 = I4.03)
+  - Colome & Torras 2012 (subsumed by 2015 journal version)
+  - Plus 4 more title-author confirmed duplicates between I3/I4
+
+Unique records after deduplication (top-tier, citation-screened):  41
+Records retained after title/abstract screen:                      30
+Records excluded with reason:
+  X1 off-topic (human pose, teleop, exoskeleton control):           5
+  X3 continuum / parallel / cable-driven only:                      6
+
+
+================================================================================
+CONSOLIDATED INCLUSION LIST (cite candidates for the manuscript)
+================================================================================
+
+A. Foundational numerical IK comparisons (must cite)
+   - Sugihara (2011) IEEE T-RO 27(5) - LM-IK robust formulation
+   - Colome & Torras (2015) IEEE/ASME T-Mech 20(2):944-955 - CLIK on WAM, SVD filter,
+     selective damping
+   - Nakanishi, Cory, Mistry, Peters, Schaal (2005) IEEE/RSJ IROS - 7-DOF redundancy
+     resolution comparative experiments
+   - Duleba & Opalka (2013) Int. J. Appl. Math. Comput. Sci. 23(2) - Jacobian-based
+     methods comparison
+   - Beeson & Ames (2015) IEEE Humanoids - TRAC-IK (open-source benchmark library)
+
+B. Closed-form / formulation comparisons
+   - Rocha, Tonetto, Dias (2011) RCIM 27(4) - DH vs screw
+   - Sariyildiz, Cakiray, Temeltas (2011) IJARS 8(5) - quaternion / dual-quat / exp map
+   - Chen, Zhu, Zhang (2015) IJARS 12(10) - improved screw-theory 6-DOF
+   - Xie et al. (2022) IEEE Access 10 - novel 7R numerical solution
+
+C. Heuristic / FABRIK family
+   - Aristidou & Lasenby (2011) Graphical Models - FABRIK original (already in main.tex)
+   - Xu et al. (2023) JIRS 108(4):62 - FABRIK + SQP
+   - Moreno & Alcantara (2022) IEEE ICEV - FABRIK adaptation for serial revolute
+   - Santos et al. (2020) IEEE Access 8 - M-FABRIK mobile manipulator
+   - Wang et al. (1991) IEEE T-RA 7(4) - CCD original (already in main.tex)
+
+D. Metaheuristic IK
+   - Abdor-Sierra, Merchan-Cruz, Rodriguez-Canizo (2022) Results in Eng. 16:100597
+     **PRINCIPAL AUTHOR'S OWN PRIOR WORK** - direct precursor; framing reference
+   - Dereli & Koker (2020) Inv. Probl. Sci. Eng. 28(5) - firefly 7-DOF
+   - Zhang, Wang, Gao (2021) IJARS 18(3) - improved DE 6/7-DOF
+   - Ghosh, Ray, Singh (2021) IJMIC 39(2) - GSA 7-DOF
+   - Bogar & Beyhan (2020) ASOC 95 - AISA 7-DOF
+   - El-Sherbiny, Elhosseini, Haikal (2018a) ASEJ 9(4) - ANN/ANFIS/GA 5-DOF
+   - El-Sherbiny, Elhosseini, Haikal (2018b) ASOC 73 - ABC variant 5-DOF
+   - Lopez-Franco et al. (2018) EAAI 74 - soft computing
+   - Rahkar Farshi (2021) NCA 33(4) - BRO + PUMA 560
+   - Rokbani, Slim, Alimi (2021) IEEE NCCC - Beta-PSO
+   - Rokbani (2026) Robotics 15(3):52 - RS-PSO surgical
+   - Pham, Castellani, Fahmy (2008) IEEE INDIN - Bees Algorithm
+   - Vera Reyes & Prado Gardini (2019) IEEE INTERCON - adaptive PSO
+   - Vaishnavi et al. (2021) IEEE ICIERA - 5-DoF metaheuristic
+   - Seyyedabbasi (2022) IEEE ICTASCE - Sand Cat Swarm
+   - Khaleel & Humaidi (2024) IRASE 15(2) - NNGA vs PSO 3-DOF
+
+E. Trajectory and redundancy planning
+   - Reiter, Muller, Gattringer (2016) IEEE IECON - min-time trajectory redundant
+   - Cheng, Li, Li, Li (2020) IEEE Access - Beetle Antennae redundant motion planning
+   - Hoffman et al. (2020) IEEE RA-L 5(1) - sparse hierarchical IK
+   - Koptev, Figueroa, Billard (2023) IEEE RA-L 8(2) - QP-IK 7-DOF reactive control
+   - Yoshikawa (1985) IJRR 4(2) - manipulability (already in main.tex)
+   - Liegeois (1977) IEEE T-SMC - null-space task priority (already in main.tex)
+
+F. Reviews / surveys
+   - Lakshmi Narayanan, Narayan, Gritli, Dwivedy (2026) JFR 43(1) - decade SLR
+     of IK methods (PRISMA-protocol)
+
+G. Damped least squares / singularity robustness foundations
+   - Wampler (1986) IEEE T-SMC 16(1) (already in main.tex)
+   - Nakamura & Hanafusa (1986) ASME J-DSMC 108 (already in main.tex)
+   - Marquardt (1963) SIAM J. Appl. Math. 11 (already in main.tex)
+   - Buss & Kim (2005) JGT 10(3) - SDLS (already in main.tex)
+   - Di Vito, Natale, Antonelli (2017) IFAC PapersOnLine 50(1):6869-6874 - DLS variants
+
+
+================================================================================
+PRISMA FLOW (auto-generated by paper/prisma/screen.py on full CSV exports)
+================================================================================
+Date of pipeline run:  2026-04-25
+Inputs:                paper/prisma/IKS_Scopus_RAW.csv      (293 records)
+                       paper/prisma/IKS_IEEE_RAW_1.csv      ( 70 records)
+                       paper/prisma/IKS_IEEE_RAW_2.csv      (  9 records)
+
+Identification:
+  Records identified through Scopus (Search 2):                  293
+  Records identified through IEEE Xplore (Search 3, broad):       70
+  Records identified through IEEE Xplore (Search 4, narrow):       9
+  Total identified:                                              372
+
+Duplicates removed:
+  By exact DOI match:                                             26
+  By normalised title match (Levenshtein-equivalent):              3
+  Total duplicates:                                               29
+  Records after deduplication:                                   343
+
+Screening (title + abstract; automated heuristic IC/EC):
+  INCLUDE:                                                        41
+  UNCERTAIN (manual review needed):                              172
+  EXCLUDE:                                                       130
+
+Exclusion reasons (by trigger):
+  EC3 continuum/parallel/cable/soft only:                         44
+  EC4 human pose / mesh / motion capture:                         11
+  IC1 no IK mention in title or abstract:                          4
+  IC2 no comparison/benchmark wording:                            10
+  IC4 manipulator < 5 DOF:                                        19
+  IC6 published before 2005-01-01:                                21
+  IC7 non-English language:                                       21
+
+Files produced:
+  paper/prisma/merged_dedup.csv         (343 records, all fields, with decisions)
+  paper/prisma/screening_decisions.csv  (343 rows: row, source, year, decision,
+                                          trigger, rationale, title, doi)
+  paper/prisma/flow_counts.txt          (the counts above)
+
+
+--------------------------------------------------------------------------------
+HEURISTIC LIMITATIONS - FLAGGED FOR MANUAL OVERRIDE
+--------------------------------------------------------------------------------
+The automated heuristic uses keyword and regex patterns and will misclassify
+some records. Known limitations require manual override during human review:
+
+False negatives observed (records auto-EXCLUDED that should be INCLUDED or
+UNCERTAIN):
+  - Xu et al. (2023) "A Combined Inverse Kinematics Algorithm Using FABRIK
+    with Optimization", JIRS 108(4):62 - excluded by IC2 because the
+    abstract uses the phrase "treated as benchmarks" which the regex did
+    not recognise as a comparison phrase. SHOULD BE INCLUDE.
+
+False positives observed (records auto-INCLUDED that on closer reading may
+be off-scope):
+  - "NEURAL NETWORK-BASED FORWARD KINEMATICS FOR A 6-DOF 3-RRPS PARALLEL
+    ROBOT" (2025) - title says forward kinematics on a parallel robot;
+    slipped through because "comparative" + ">=5 DOF" matched. Should be
+    EXCLUDE under EC3.
+  - "Forward kinematic analysis of 5-DOF LYNX6 robotic arm" (2023) - title
+    says forward kinematics; needs full-text check to confirm IK content.
+
+Records flagged UNCERTAIN that on quick inspection are clearly INCLUDE:
+  - Lopez-Franco et al. (2018) "A soft computing approach for inverse
+    kinematics" - 88 citations, clearly a comparison study; flagged
+    UNCERTAIN(IC3) because metric keyword absent in abstract excerpt.
+  - Rocha, Tonetto, Dias (2011) "A comparison between Denavit-Hartenberg
+    and the screw-based methods" - 166 citations, methodological
+    comparison; flagged UNCERTAIN(IC3) for the same reason.
+
+The MANUAL TITLE+ABSTRACT SCREEN is the next PRISMA stage. The automated
+output of screen.py is provided as a reproducible decision-aid, not as the
+final screening decision. The human reviewer overrides the automated
+decision by editing the `decision` and `rationale` columns of
+merged_dedup.csv directly; the resulting file becomes the canonical
+screening record for the paper.
+
+To re-run the pipeline after changing IC/EC or adding records:
+    cd paper/prisma
+    python3 screen.py
+
+
+================================================================================
+SEARCH RECONSTRUCTION (for an auditor)
+================================================================================
+Reproducing this log requires:
+  1. Visiting Scopus and pasting Search 1 string (above) into the basic
+     search box; recording 15 results.
+  2. Pasting Search 2 string; recording 293 results; sorting by Cited by
+     (highest); recording the top 20.
+  3. Visiting IEEE Xplore and pasting Search 3 string with sortType=
+     paper-citations; recording the top 22 of 70.
+  4. Pasting Search 4 string; recording all 9 results.
+  5. Applying the inclusion / exclusion criteria above.
+  6. Cross-referencing against the consolidated reference list.
+
+All search strings, dates, sort orders, and result counts are recorded
+verbatim in this file to permit exact reproduction.
+
+================================================================================
+END OF LOG - 2026-04-25
+================================================================================
