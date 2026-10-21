@@ -160,6 +160,8 @@ function [q_best, info] = solve_ImpFABRIK(robot, T_d, q0, opts)
 %             University of Glasgow, Glasgow, U.K.)
 %             Ekaterina Gromova (Transport and Telecommunication Institute,
 %             Riga, Latvia)
+%             Samuel Moveh (Transport and Telecommunication Institute,
+%             Riga, Latvia)
 % Year      : 2026
 % License   : MIT (see LICENSE)
 % Repository: https://github.com/eamcmx/IK_benchmark_2026
