@@ -22,7 +22,7 @@ lissajous and a workspace-boundary path), warm-started from the solution at the 
 
 E. A. Merchán-Cruz, G. Aragon-Camarasa, E. Gromova, S. Moveh, *A Comparative Benchmark of Inverse Kinematics Solvers for
 Serial and Redundant Manipulators (6 to 13 DOF) under Warm-Started Recursive Trajectory Tracking*, 2026.
-Supplementary material (pseudocode of every solver as run): Zenodo, DOI to be added.
+Supplementary material (pseudocode of every solver as run): Zenodo, 10.5281/zenodo.23531744.
 
 ## Quick start
 
